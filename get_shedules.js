@@ -281,6 +281,14 @@ X-PUBLISHED-TTL:P1W`;
         });
     });
 
+    fs.writeFile("output/allEvents.json", JSON.stringify(allEvents, null, 2), function (err) {
+        if (err) {
+            return console.log(err);
+        }
+
+        console.log("Saved", 'allEvents.json');
+    });
+
     function formatDate(date) {
         return "" + date.getUTCFullYear()
             + prependZero(date.getUTCMonth() + 1)
