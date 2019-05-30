@@ -17,6 +17,7 @@ const LEAGUES = {
     LCK: 'LCK',
     LPL: 'LPL',
     LCSA: 'LCS Academy',
+    MSI: 'MSI',
 };
 
 const LEAGUES_JSON = {
@@ -112,14 +113,26 @@ const LEAGUES_JSON = {
             "region": "NORTH AMERICA",
             "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lcs-academy-4o8goq8n.png",
             "priority": 101
+        }, {
+            "id": "98767991325878492",
+            "slug": "msi",
+            "name": "MSI",
+            "region": "INTERNATIONAL",
+            "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/league/msi-iu1t0cjd.png",
+            "priority": 209
         }]
     }
 };
 
 const SHORT_NAMES = {};
-SHORT_NAMES[LEAGUES.LCSA] = "LCSA";
+SHORT_NAMES[LEAGUES.LEC] = "🇪🇺";
+SHORT_NAMES[LEAGUES.LCS] = "🇺🇸";
+SHORT_NAMES[LEAGUES.LPL] = "🇨🇳";
+SHORT_NAMES[LEAGUES.LCK] = "🇰🇷";
+SHORT_NAMES[LEAGUES.LCSA] = "A🇺🇸";
 SHORT_NAMES[LEAGUES.WORLDS] = "";
 SHORT_NAMES[LEAGUES.ALLSTARS] = "";
+SHORT_NAMES[LEAGUES.MSI] = "";
 
 const CALENDARS = {
     // "LCS": [LEAGUES.LCS],
@@ -127,20 +140,21 @@ const CALENDARS = {
     // "LCK": [LEAGUES.LCK],
     // "LPL": [LEAGUES.LPL],
     // "LCSA": [LEAGUES.LCSA],
-    "CUSTOM": [LEAGUES.WORLDS, LEAGUES.ALLSTARS, LEAGUES.LEC, LEAGUES.LCK],
-    "NA": [LEAGUES.LCS, LEAGUES.LCSA],
+    "CUSTOM": [LEAGUES.WORLDS, LEAGUES.ALLSTARS, LEAGUES.MSI, LEAGUES.LEC, LEAGUES.LCK, LEAGUES.LPL, LEAGUES.LCS],
+    // "NA": [LEAGUES.LCS, LEAGUES.LCSA],
 };
 
 
 const SMALL_HIGHLIGHT = "⭐";
 const BIG_HIGHLIGHT = "🌟";
 const HIGHLIGHT_TEAMS = [
-    "SKT", "GRF", "DWG",
-    "IG",
-    "FNC", "OG", "G2", "MSF",
-    "TL",
-    "FLYA",
+    "SKT", "GRF",
+    "IG", "RNG", "TOP", "FPX", "EDG", "WE", "JDG",
+    "FNC", "OG", "G2", "RGE",
+    "TL", "TSM", "C9"
 ];
+
+const HIDE_UNIMPORTANT_MATCHES = [LEAGUES.LPL];
 
 const LEAGUES_TO_CRAWL = (function () {
     const names = {};
@@ -232,29 +246,36 @@ X-PUBLISHED-TTL:P1W`;
 
             const te = new Date(Date.parse(event.startTime) + matchLength);
 
-            calendarString += "\nBEGIN:VEVENT";
-            calendarString += "\nDTSTART:" + formatDate(ts);
-            calendarString += "\nDTEND:" + formatDate(te);
-
             let leagueName = event.league.name;
             if (leagueName in SHORT_NAMES)
                 leagueName = SHORT_NAMES[leagueName];
 
-            let summary = leagueName ? (leagueName + "|") : "";
+            let summary = leagueName || "";
 
             let highlight = 0;
+
+            if (HIDE_UNIMPORTANT_MATCHES.indexOf(event.league.name) !== -1) {
+                highlight -= 2;
+            }
+
             event.match.teams.forEach(function (team) {
                 if (HIGHLIGHT_TEAMS.indexOf(team.code) !== -1)
                     highlight++;
             });
 
-            if (highlight === 1) {
+            summary += event.match.teams[0].code + "×" + event.match.teams[1].code;
+
+            if (highlight < 0) {
+                return;
+            } else if (highlight === 1) {
                 summary += SMALL_HIGHLIGHT
             } else if (highlight === 2) {
                 summary += BIG_HIGHLIGHT
             }
 
-            summary += event.match.teams[0].code + "×" + event.match.teams[1].code;
+            calendarString += "\nBEGIN:VEVENT";
+            calendarString += "\nDTSTART:" + formatDate(ts);
+            calendarString += "\nDTEND:" + formatDate(te);
 
             calendarString += "\nSUMMARY:" + summary;
 
