@@ -18,6 +18,8 @@ const LEAGUES = {
     LPL: 'LPL',
     LCSA: 'LCS Academy',
     MSI: 'MSI',
+    RIFT_EAST: 'Rift Rivals: KR/CN/LMS/VNf',
+    RIFT_WEST: 'Rift Rivals: NA vs. EU',
 };
 
 const LEAGUES_JSON = {
@@ -120,41 +122,95 @@ const LEAGUES_JSON = {
             "region": "INTERNATIONAL",
             "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/league/msi-iu1t0cjd.png",
             "priority": 209
+        }, {
+            "id": "102299952872678379",
+            "slug": "rift-rivals-kr-cn-lms-vn",
+            "name": "Rift Rivals: KR/CN/LMS/VN",
+            "region": "INTERNATIONAL",
+            "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/league/rift-rivals-kr-cn-lms-vn-95oqqlz8.png",
+            "priority": 101
+        }, {
+            "id": "98767991349120232",
+            "slug": "league-of-legends-college-championship",
+            "name": "College Championship",
+            "region": "NORTH AMERICA",
+            "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/league/league-of-legends-college-championship-h6j74ouz.png",
+            "priority": 211
+        }, {
+            "id": "98767991351263126",
+            "slug": "rift-rivals-na-eu",
+            "name": "Rift Rivals: NA vs. EU",
+            "region": "INTERNATIONAL",
+            "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/league/rift-rivals-na-eu-1ts7gmu5.png",
+            "priority": 100
         }]
     }
 };
 
-const SHORT_NAMES = {};
-SHORT_NAMES[LEAGUES.LEC] = "🇪🇺";
-SHORT_NAMES[LEAGUES.LCS] = "🇺🇸";
-SHORT_NAMES[LEAGUES.LPL] = "🇨🇳";
-SHORT_NAMES[LEAGUES.LCK] = "🇰🇷";
-SHORT_NAMES[LEAGUES.LCSA] = "A🇺🇸";
-SHORT_NAMES[LEAGUES.WORLDS] = "";
-SHORT_NAMES[LEAGUES.ALLSTARS] = "";
-SHORT_NAMES[LEAGUES.MSI] = "";
-
+const SHORT_NAMES = {
+    [LEAGUES.LEC]: "🇪🇺",
+    [LEAGUES.LCS]: "🇺🇸",
+    [LEAGUES.LPL]: "🇨🇳",
+    [LEAGUES.LCK]: "🇰🇷",
+    [LEAGUES.LCSA]: "A🇺🇸",
+    [LEAGUES.WORLDS]: "",
+    [LEAGUES.ALLSTARS]: "",
+    [LEAGUES.MSI]: "",
+    [LEAGUES.RIFT_EAST]: "",
+    [LEAGUES.RIFT_WEST]: "",
+};
 const CALENDARS = {
     // "LCS": [LEAGUES.LCS],
     // "LEC": [LEAGUES.LEC],
     // "LCK": [LEAGUES.LCK],
     // "LPL": [LEAGUES.LPL],
     // "LCSA": [LEAGUES.LCSA],
-    "CUSTOM": [LEAGUES.WORLDS, LEAGUES.ALLSTARS, LEAGUES.MSI, LEAGUES.LEC, LEAGUES.LCK, LEAGUES.LPL, LEAGUES.LCS],
+    "CUSTOM": [LEAGUES.WORLDS, LEAGUES.ALLSTARS, LEAGUES.MSI, LEAGUES.LEC, LEAGUES.LCK, LEAGUES.LPL, LEAGUES.LCS, LEAGUES.RIFT_EAST, LEAGUES.RIFT_WEST],
     // "NA": [LEAGUES.LCS, LEAGUES.LCSA],
 };
 
 
 const SMALL_HIGHLIGHT = "⭐";
 const BIG_HIGHLIGHT = "🌟";
-const HIGHLIGHT_TEAMS = [
-    "SKT", "GRF",
-    "IG", "RNG", "TOP", "FPX", "EDG", "WE", "JDG",
-    "FNC", "OG", "G2", "RGE",
-    "TL", "TSM", "C9"
-];
 
-const HIDE_UNIMPORTANT_MATCHES = [LEAGUES.LPL];
+// -1 = hide
+//  0 = neutral
+//  3 = +
+//  4 = +++
+const TEAM_PRIORITY = {
+    // LCK
+    GRF: 2,
+    SB: 2,
+    KZ: 2,
+    DWG: 2,
+    AF: 2,
+    SKT: 1,
+    JAG: -1,
+    HLE: -1,
+
+    // LPL
+    IG: 2,
+    RNG: 2,
+    TOP: 2,
+    FPX: 2,
+    EDG: 1,
+
+    // EU
+    G2: 2,
+    FNC: 2,
+    OG: 1,
+
+    // NA
+    C9: 2,
+    CLG: 2,
+    TSM: 2,
+    TL: 2,
+    GGS: 1,
+};
+
+const LEAGUE_PRIORITY = {
+    [LEAGUES.LPL]: -3,
+};
 
 const LEAGUES_TO_CRAWL = (function () {
     const names = {};
@@ -252,24 +308,19 @@ X-PUBLISHED-TTL:P1W`;
 
             let summary = leagueName || "";
 
-            let highlight = 0;
-
-            if (HIDE_UNIMPORTANT_MATCHES.indexOf(event.league.name) !== -1) {
-                highlight -= 2;
-            }
+            let highlight = LEAGUE_PRIORITY[event.league.name] || 0;
 
             event.match.teams.forEach(function (team) {
-                if (HIGHLIGHT_TEAMS.indexOf(team.code) !== -1)
-                    highlight++;
+                highlight += (TEAM_PRIORITY[team.code] || 0);
             });
 
             summary += event.match.teams[0].code + "×" + event.match.teams[1].code;
 
             if (highlight < 0) {
                 return;
-            } else if (highlight === 1) {
+            } else if (highlight === 3) {
                 summary += SMALL_HIGHLIGHT
-            } else if (highlight === 2) {
+            } else if (highlight === 4) {
                 summary += BIG_HIGHLIGHT
             }
 
