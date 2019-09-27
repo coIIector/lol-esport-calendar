@@ -294,6 +294,9 @@ const httpClient = request.defaults({
 
 const allEvents = []
 
+let crawlForward = true
+let older = null
+
 function getNextPage(pageToken) {
   if (pageToken) URL_PARAMS.pageToken = pageToken
 
@@ -302,16 +305,34 @@ function getNextPage(pageToken) {
 
     const data = JSON.parse(body).data.schedule
     allEvents.push.apply(allEvents, data.events)
+    let firstEventStartTime = (data.events[0] && data.events[0].startTime) || ""
 
-    console.log("Total matches loaded:", allEvents.length)
-    if (data.pages.newer) {
-      getNextPage(data.pages.newer)
+    console.log("Total matches loaded:", allEvents.length, firstEventStartTime)
+
+    let nextPage = null
+    if (crawlForward) {
+      nextPage = data.pages.newer
+      if (!nextPage) crawlForward = false
+      if (older === null) older = data.pages.older
+    }
+
+    if (!crawlForward) {
+      if (older != null) {
+        nextPage = older
+        older = null
+      } else {
+        if (!firstEventStartTime.startsWith("2018")) {
+          nextPage = data.pages.older
+        }
+      }
+    }
+
+    if (nextPage) {
+      getNextPage(nextPage)
     } else {
       generateCalendar()
     }
   })
-
-  console.log(ret)
 }
 
 function generateCalendar() {
