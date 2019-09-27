@@ -12,13 +12,14 @@ const URL_PARAMS = {
 const LEAGUES = {
   WORLDS: "World Championship",
   ALLSTARS: "All-Star Event",
+  EU: "European Masters",
   LCS: "LCS",
   LEC: "LEC",
   LCK: "LCK",
   LPL: "LPL",
   LCSA: "LCS Academy",
   MSI: "MSI",
-  RIFT_EAST: "Rift Rivals: KR/CN/LMS/VNf",
+  RIFT_EAST: "Rift Rivals: KR/CN/LMS/VN",
   RIFT_WEST: "Rift Rivals: NA vs. EU",
 }
 
@@ -26,125 +27,21 @@ const LEAGUES_JSON = {
   data: {
     leagues: [
       {
+        id: "100695891328981122",
+        slug: "european-masters",
+        name: "European Masters",
+        region: "EUROPE",
+        image:
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/european-masters-6uqdmwq0.png",
+        priority: 215,
+      },
+      {
         id: "101382741235120470",
         slug: "lla",
         name: "LLA",
-        region: "LATAM",
-        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lla-ar0gow4l.png",
-        priority: 105,
-      },
-      {
-        id: "98767975604431411",
-        slug: "worlds",
-        name: "World Championship",
-        region: "INTERNATIONAL",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/worlds-3om032jn.png",
-        priority: 108,
-      },
-      {
-        id: "98767991295297326",
-        slug: "all-star",
-        name: "All-Star Event",
-        region: "INTERNATIONAL",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/all-star-1bgd8l0u.png",
-        priority: 110,
-      },
-      {
-        id: "98767991299243165",
-        slug: "lcs",
-        name: "LCS",
-        region: "NORTH AMERICA",
-        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lcs-79qe3e0y.png",
-        priority: 0,
-      },
-      {
-        id: "98767991302996019",
-        slug: "lec",
-        name: "LEC",
-        region: "EUROPE",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/eu-lcs-dgpu3cuv.png",
-        priority: 1,
-      },
-      {
-        id: "98767991310872058",
-        slug: "lck",
-        name: "LCK",
-        region: "KOREA",
-        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lck-7epeu9ot.png",
-        priority: 2,
-      },
-      {
-        id: "98767991314006698",
-        slug: "lpl",
-        name: "LPL",
-        region: "CHINA",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lpl-china-6ygsd4c8.png",
-        priority: 100,
-      },
-      {
-        id: "98767991316828753",
-        slug: "lms",
-        name: "LMS",
-        region: "HONG KONG, MACAU, TAIWAN",
-        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lms-61367pag.png",
-        priority: 104,
-      },
-      {
-        id: "98767991331560952",
-        slug: "oce-opl",
-        name: "OPL",
-        region: "OCEANIA",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/oce-opl-aun5eljl.png",
-        priority: 106,
-      },
-      {
-        id: "98767991332355509",
-        slug: "cblol-brazil",
-        name: "CBLOL",
-        region: "BRAZIL",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/cblol-brazil-dox5yh1x.png",
-        priority: 103,
-      },
-      {
-        id: "98767991343597634",
-        slug: "turkiye-sampiyonluk-ligi",
-        name: "TCL",
-        region: "TURKEY",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/turkiye-sampiyonluk-ligi-4c8nym1o.png",
-        priority: 102,
-      },
-      {
-        id: "98767991349978712",
-        slug: "ljl-japan",
-        name: "LJL",
-        region: "JAPAN",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/ljl-japan-j27k8oms.png",
-        priority: 107,
-      },
-      {
-        id: "99332500638116286",
-        slug: "na-academy",
-        name: "LCS Academy",
-        region: "NORTH AMERICA",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lcs-academy-4o8goq8n.png",
-        priority: 101,
-      },
-      {
-        id: "98767991325878492",
-        slug: "msi",
-        name: "MSI",
-        region: "INTERNATIONAL",
-        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/msi-iu1t0cjd.png",
-        priority: 209,
+        region: "LATIN AMERICA",
+        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lla-55ylm4hf.png",
+        priority: 206,
       },
       {
         id: "102299952872678379",
@@ -153,7 +50,94 @@ const LEAGUES_JSON = {
         region: "INTERNATIONAL",
         image:
           "https://lolstatic-a.akamaihd.net/esports-assets/production/league/rift-rivals-kr-cn-lms-vn-95oqqlz8.png",
-        priority: 101,
+        priority: 213,
+      },
+      {
+        id: "98767975604431411",
+        slug: "worlds",
+        name: "Worlds",
+        region: "INTERNATIONAL",
+        image:
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/worlds-3om032jn.png",
+        priority: 0,
+      },
+      {
+        id: "98767991295297326",
+        slug: "all-star",
+        name: "All-Star Event",
+        region: "INTERNATIONAL",
+        image:
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/all-star-1bgd8l0u.png",
+        priority: 211,
+      },
+      {
+        id: "98767991299243165",
+        slug: "lcs",
+        name: "LCS",
+        region: "NORTH AMERICA",
+        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lcs-79qe3e0y.png",
+        priority: 1,
+      },
+      {
+        id: "98767991302996019",
+        slug: "lec",
+        name: "LEC",
+        region: "EUROPE",
+        image:
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/eu-lcs-dgpu3cuv.png",
+        priority: 2,
+      },
+      {
+        id: "98767991310872058",
+        slug: "lck",
+        name: "LCK",
+        region: "KOREA",
+        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lck-7epeu9ot.png",
+        priority: 3,
+      },
+      {
+        id: "98767991314006698",
+        slug: "lpl",
+        name: "LPL",
+        region: "CHINA",
+        image:
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lpl-china-6ygsd4c8.png",
+        priority: 201,
+      },
+      {
+        id: "98767991325878492",
+        slug: "msi",
+        name: "MSI",
+        region: "INTERNATIONAL",
+        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/msi-iu1t0cjd.png",
+        priority: 210,
+      },
+      {
+        id: "98767991331560952",
+        slug: "oce-opl",
+        name: "OPL",
+        region: "OCEANIA",
+        image:
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/oce-opl-aun5eljl.png",
+        priority: 207,
+      },
+      {
+        id: "98767991332355509",
+        slug: "cblol-brazil",
+        name: "CBLOL",
+        region: "BRAZIL",
+        image:
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/cblol-brazil-dox5yh1x.png",
+        priority: 204,
+      },
+      {
+        id: "98767991343597634",
+        slug: "turkiye-sampiyonluk-ligi",
+        name: "TCL",
+        region: "TURKEY",
+        image:
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/turkiye-sampiyonluk-ligi-8r9ofb9.png",
+        priority: 203,
       },
       {
         id: "98767991349120232",
@@ -162,7 +146,16 @@ const LEAGUES_JSON = {
         region: "NORTH AMERICA",
         image:
           "https://lolstatic-a.akamaihd.net/esports-assets/production/league/league-of-legends-college-championship-h6j74ouz.png",
-        priority: 211,
+        priority: 214,
+      },
+      {
+        id: "98767991349978712",
+        slug: "ljl-japan",
+        name: "LJL",
+        region: "JAPAN",
+        image:
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/ljl-japan-j27k8oms.png",
+        priority: 208,
       },
       {
         id: "98767991351263126",
@@ -171,7 +164,16 @@ const LEAGUES_JSON = {
         region: "INTERNATIONAL",
         image:
           "https://lolstatic-a.akamaihd.net/esports-assets/production/league/rift-rivals-na-eu-1ts7gmu5.png",
-        priority: 100,
+        priority: 212,
+      },
+      {
+        id: "99332500638116286",
+        slug: "lcs-academy",
+        name: "LCS Academy",
+        region: "NORTH AMERICA",
+        image:
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lcs-academy-4o8goq8n.png",
+        priority: 202,
       },
     ],
   },
@@ -179,6 +181,7 @@ const LEAGUES_JSON = {
 
 const SHORT_NAMES = {
   [LEAGUES.LEC]: "🇪🇺",
+  [LEAGUES.EU]: "🇪🇺",
   [LEAGUES.LCS]: "🇺🇸",
   [LEAGUES.LPL]: "🇨🇳",
   [LEAGUES.LCK]: "🇰🇷",
@@ -197,6 +200,7 @@ const CALENDARS = {
   // "LCSA": [LEAGUES.LCSA],
   CUSTOM: [
     LEAGUES.WORLDS,
+    LEAGUES.EU,
     LEAGUES.ALLSTARS,
     LEAGUES.MSI,
     LEAGUES.LEC,
