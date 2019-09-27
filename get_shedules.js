@@ -10,7 +10,7 @@ const URL_PARAMS = {
 }
 
 const LEAGUES = {
-  WORLDS: "World Championship",
+  WORLDS: "Worlds",
   ALLSTARS: "All-Star Event",
   EU: "European Masters",
   LCS: "LCS",
