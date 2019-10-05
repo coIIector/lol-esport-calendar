@@ -193,10 +193,17 @@ const SHORT_NAMES = {
   [LEAGUES.RIFT_WEST]: "",
 }
 const CALENDARS = {
-  // "LCS": [LEAGUES.LCS],
-  // "LEC": [LEAGUES.LEC],
-  // "LCK": [LEAGUES.LCK],
-  // "LPL": [LEAGUES.LPL],
+  LCS: [LEAGUES.LCS],
+  LEC: [LEAGUES.LEC],
+  LCK: [LEAGUES.LCK],
+  LPL: [LEAGUES.LPL],
+  INTERNATIONAL: [
+    LEAGUES.WORLDS,
+    LEAGUES.MSI,
+    LEAGUES.RIFT_WEST,
+    LEAGUES.RIFT_EAST,
+    LEAGUES.ALLSTARS,
+  ],
   // "LCSA": [LEAGUES.LCSA],
   CUSTOM: [
     LEAGUES.WORLDS,
@@ -205,7 +212,6 @@ const CALENDARS = {
     LEAGUES.MSI,
     LEAGUES.LEC,
     LEAGUES.LCK,
-    LEAGUES.LPL,
     LEAGUES.LCS,
     LEAGUES.RIFT_EAST,
     LEAGUES.RIFT_WEST,
@@ -221,38 +227,38 @@ const BIG_HIGHLIGHT = "🌟"
 //  3 = +
 //  4 = +++
 const TEAM_PRIORITY = {
-  // LCK
-  GRF: 2,
-  SB: 2,
-  KZ: 2,
-  DWG: 2,
-  AF: 2,
-  SKT: 1,
-  JAG: -1,
-  HLE: -1,
-
-  // LPL
-  IG: 2,
-  RNG: 2,
-  TOP: 2,
-  FPX: 2,
-  EDG: 1,
-
-  // EU
-  G2: 2,
-  FNC: 2,
-  OG: 1,
-
-  // NA
-  C9: 2,
-  CLG: 2,
-  TSM: 2,
-  TL: 2,
-  GGS: 1,
+  // // LCK
+  // GRF: 2,
+  // SB: 2,
+  // KZ: 2,
+  // DWG: 2,
+  // AF: 2,
+  // SKT: 1,
+  // JAG: -1,
+  // HLE: -1,
+  //
+  // // LPL
+  // IG: 2,
+  // RNG: 2,
+  // TOP: 2,
+  // FPX: 2,
+  // EDG: 1,
+  //
+  // // EU
+  // G2: 2,
+  // FNC: 2,
+  // OG: 1,
+  //
+  // // NA
+  // C9: 2,
+  // CLG: 2,
+  // TSM: 2,
+  // TL: 2,
+  // GGS: 1,
 }
 
 const LEAGUE_PRIORITY = {
-  [LEAGUES.LPL]: -3,
+  // [LEAGUES.LPL]: -3,
 }
 
 const LEAGUES_TO_CRAWL = (function() {
