@@ -346,6 +346,9 @@ function getNextPage(pageToken) {
 }
 
 function generateCalendar() {
+  allEvents.sort(
+    (a, b) => a.startTime.localeCompare(b.startTime) || a.match.id.localeCompare(b.match.id)
+  )
   Object.keys(CALENDARS).forEach(function(calendarName) {
     const calendarLeagues = CALENDARS[calendarName]
 
