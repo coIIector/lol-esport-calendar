@@ -374,8 +374,11 @@ X-PUBLISHED-TTL:P1W`
 
       const te = new Date(Date.parse(event.startTime) + matchLength)
 
-      let leagueName = event.league.name
-      if (leagueName in SHORT_NAMES) leagueName = SHORT_NAMES[leagueName]
+      let leagueName = null
+      if (calendarLeagues.length !== 1) {
+        leagueName = event.league.name
+        if (leagueName in SHORT_NAMES) leagueName = SHORT_NAMES[leagueName]
+      }
 
       let summary = leagueName || ""
 

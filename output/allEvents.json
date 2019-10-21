@@ -1,725 +1,5 @@
 [
   {
-    "startTime": "2018-12-07T02:20:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821688967889",
-      "teams": [
-        {
-          "name": "Nexus Blitz Pro A",
-          "code": "NBPA",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/nexus-blitz-pro-a-esrcx58b.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 1,
-            "losses": 0
-          }
-        },
-        {
-          "name": "Nexus Blitz Pro B",
-          "code": "NBPB",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/nexus-blitz-pro-b-j6s80wmi.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-07T03:20:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821690147545",
-      "teams": [
-        {
-          "name": "Tandem Mode Pro A",
-          "code": "TMPA",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/tandem-mode-pro-a-fzvstfic.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Tandem Mode Pro B",
-          "code": "TMPB",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/tandem-mode-pro-b-ho32i31x.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 1,
-            "losses": 0
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-07T04:20:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821690016472",
-      "teams": [
-        {
-          "name": "Team URF A",
-          "code": "URFA",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-urf-a-b6ux5wjz.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 1,
-            "losses": 0
-          }
-        },
-        {
-          "name": "Team URF B",
-          "code": "URFB",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-urf-b-71vpjool.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-07T05:20:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821687395014",
-      "teams": [
-        {
-          "name": "Broxah",
-          "code": "EU2",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/broxah-1pvcgamx.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Diamondprox",
-          "code": "CIS2",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/diamondprox-enfg252a.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 1,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-07T05:30:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821688312525",
-      "teams": [
-        {
-          "name": "Arce",
-          "code": "LAN2",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/arce-5xf4sd13.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Maple",
-          "code": "LMS1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/maple-387a72ow.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 2,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-07T05:40:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821684511412",
-      "teams": [
-        {
-          "name": "Faker",
-          "code": "KR1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/faker-2fbnzfc8.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 2,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Artifact",
-          "code": "VN1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/artifact-8hv79f49.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-07T05:50:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821684380339",
-      "teams": [
-        {
-          "name": "Seiya",
-          "code": "LAN1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/seiya-1v1ni2gp.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 1,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Kira",
-          "code": "CIS1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/kira-iwbu5ymq.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-07T06:00:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821685756604",
-      "teams": [
-        {
-          "name": "Uzi",
-          "code": "LPL3",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/uzi-f8vk0g1s.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 3,
-            "losses": 1
-          }
-        },
-        {
-          "name": "G4",
-          "code": "SEA1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/g4-2uumxvol.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-07T06:10:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821688640207",
-      "teams": [
-        {
-          "name": "Zeros",
-          "code": "VN2",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/zeros-1vqh9nbv.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 1,
-            "losses": 1
-          }
-        },
-        {
-          "name": "BrokenBlade",
-          "code": "TR1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/brokenblade-7jowrbb9.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-07T06:20:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821685428922",
-      "teams": [
-        {
-          "name": "Jiizuke",
-          "code": "EU3",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/jiizuke-5juqqu6o.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 1,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Rockky",
-          "code": "SEA2",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/rockky-1wl4upe.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-07T06:30:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 1",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821686739649",
-      "teams": [
-        {
-          "name": "Sneaky",
-          "code": "NA1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sneaky-bekd4pdq.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 0,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Bang",
-          "code": "KR2",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/bang-asaba3dk.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 2,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-08T00:00:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 2",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821681693347",
-      "teams": [
-        {
-          "name": "AlexelCapso",
-          "code": "EU1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/alexelcapso-j2ed4irb.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 1,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Captain Faker",
-          "code": "KR1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/captain-faker-4arw3clt.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 3,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-08T00:10:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 2",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821682873001",
-      "teams": [
-        {
-          "name": "NapLe",
-          "code": "LMS1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/naple-fnomtsnw.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 1,
-            "losses": 1
-          }
-        },
-        {
-          "name": "QTZ",
-          "code": "VN1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/qtz-2z2wtzee.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 2,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-08T00:20:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 2",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821683266220",
-      "teams": [
-        {
-          "name": "Diamondflash",
-          "code": "CIS1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/diamondflash-hkyt9ulr.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 1,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Doubleboy",
-          "code": "NA1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/doubleboy-62ibyzp2.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 4,
-            "losses": 0
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-08T00:30:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 2",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821682086564",
-      "teams": [
-        {
-          "name": "RookXi Luo",
-          "code": "LPL2",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/rookxi-luo-bp466wdd.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 1,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Shiporice",
-          "code": "NA2",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/shiporice-a9shusfb.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 2,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
-    "startTime": "2018-12-08T00:40:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Day 2",
-    "league": {
-      "name": "All-Star Event",
-      "slug": "all-star"
-    },
-    "match": {
-      "id": "101157821682217637",
-      "teams": [
-        {
-          "name": "Captain Faker",
-          "code": "KR1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/captain-faker-4arw3clt.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 3,
-            "losses": 1
-          }
-        },
-        {
-          "name": "QTZ",
-          "code": "VN1",
-          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/qtz-2z2wtzee.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 0
-          },
-          "record": {
-            "wins": 2,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 1
-      }
-    }
-  },
-  {
     "startTime": "2018-12-08T00:50:00Z",
     "state": "completed",
     "type": "match",
@@ -2307,7 +1587,7 @@
       "id": "101388913429723945",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -2725,7 +2005,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -3940,7 +3220,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -5052,7 +4332,7 @@
       "id": "101388913438309234",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -5830,7 +5110,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -6807,7 +6087,7 @@
       "id": "101388913430182701",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -8022,7 +7302,7 @@
       "id": "101388913428347678",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -8575,7 +7855,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -9925,7 +9205,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -11185,7 +10465,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -12072,7 +11352,7 @@
       "id": "101388913436080991",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -13210,7 +12490,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -13827,7 +13107,7 @@
       "id": "101388913438767990",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -15672,7 +14952,7 @@
       "id": "101388913434442577",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -16900,7 +16180,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -17787,7 +17067,7 @@
       "id": "101388913433721675",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -19060,7 +18340,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -19542,7 +18822,7 @@
       "id": "101388913434180431",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -20307,7 +19587,7 @@
       "id": "101705789740804896",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -20455,7 +19735,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -22300,7 +21580,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -22422,7 +21702,7 @@
       "id": "101978171932561228",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -22692,7 +21972,7 @@
       "id": "101978171932299083",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -22795,7 +22075,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -22840,7 +22120,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -23007,7 +22287,7 @@
       "id": "101978171929546562",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -23245,7 +22525,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -23335,7 +22615,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -23367,7 +22647,7 @@
       "id": "101978171934986068",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -23592,7 +22872,7 @@
       "id": "101978171933806416",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -23682,7 +22962,7 @@
       "id": "101978171937935198",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -24852,7 +24132,7 @@
       "id": "102181142491065832",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -26035,7 +25315,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -26710,7 +25990,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -27282,7 +26562,7 @@
       "id": "102181142489820637",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -28375,7 +27655,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -29037,7 +28317,7 @@
       "id": "102181142492376564",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -30477,7 +29757,7 @@
       "id": "102181142490541539",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -31120,7 +30400,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -31660,7 +30940,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -32142,7 +31422,7 @@
       "id": "102300216824227007",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -32592,7 +31872,7 @@
       "id": "102300216826717391",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -32997,7 +32277,7 @@
       "id": "102181142490148320",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -33280,7 +32560,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -34945,7 +34225,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -36687,7 +35967,7 @@
       "id": "102181142491852271",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -37780,7 +37060,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -38442,7 +37722,7 @@
       "id": "102181142490869222",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -39072,7 +38352,7 @@
       "id": "102181142490738149",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -40885,7 +40165,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -41817,7 +41097,7 @@
       "id": "102181142491590125",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -42505,7 +41785,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -43122,7 +42402,7 @@
       "id": "102656457778592649",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -43225,7 +42505,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -43495,7 +42775,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -43675,7 +42955,7 @@
           }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
@@ -48556,7 +47836,7 @@
   },
   {
     "startTime": "2019-10-12T12:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 1",
     "league": {
@@ -48571,20 +47851,26 @@
           "code": "FNC",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/fnatic-ewbxwq2f.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         }
       ],
       "strategy": {
@@ -48595,7 +47881,7 @@
   },
   {
     "startTime": "2019-10-12T13:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 1",
     "league": {
@@ -48610,20 +47896,26 @@
           "code": "RNG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/royal-never-give-up-cyacqft1.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         },
         {
           "name": "Clutch Gaming",
           "code": "CG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/clutch-gaming-83a00582.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         }
       ],
       "strategy": {
@@ -48634,7 +47926,7 @@
   },
   {
     "startTime": "2019-10-12T14:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 1",
     "league": {
@@ -48649,20 +47941,26 @@
           "code": "IG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/invictus-gaming-fc6pvsnm.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         },
         {
-          "name": "ahq e-Sports Club",
+          "name": "ahq eSports Club",
           "code": "AHQ",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/ahq-e-sports-club-ddwzdt6x.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         }
       ],
       "strategy": {
@@ -48673,7 +47971,7 @@
   },
   {
     "startTime": "2019-10-12T15:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 1",
     "league": {
@@ -48688,20 +47986,26 @@
           "code": "DWG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/damwon-gaming-2eagu86e.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         },
         {
           "name": "Team Liquid",
           "code": "TL",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-liquid-3wlr7jka.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -48712,7 +48016,7 @@
   },
   {
     "startTime": "2019-10-12T16:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 1",
     "league": {
@@ -48727,20 +48031,26 @@
           "code": "JT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/j-team-7bc95mku.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         },
         {
           "name": "FunPlus Phoenix",
           "code": "FPX",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/funplus-phoenix-2qc3y9b8.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -48751,7 +48061,7 @@
   },
   {
     "startTime": "2019-10-12T17:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 1",
     "league": {
@@ -48766,20 +48076,26 @@
           "code": "GAM",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/marines-esports-8g5ut0y.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 1,
+            "losses": 5
+          }
         },
         {
           "name": "Splyce",
           "code": "SPY",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/splyce-alf6br1o.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -48790,7 +48106,7 @@
   },
   {
     "startTime": "2019-10-13T12:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 2",
     "league": {
@@ -48801,24 +48117,30 @@
       "id": "102844341893214858",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         },
         {
           "name": "Royal Never Give Up",
           "code": "RNG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/royal-never-give-up-cyacqft1.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -48829,7 +48151,7 @@
   },
   {
     "startTime": "2019-10-13T13:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 2",
     "league": {
@@ -48844,20 +48166,26 @@
           "code": "FNC",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/fnatic-ewbxwq2f.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         },
         {
           "name": "Clutch Gaming",
           "code": "CG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/clutch-gaming-83a00582.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         }
       ],
       "strategy": {
@@ -48868,7 +48196,7 @@
   },
   {
     "startTime": "2019-10-13T14:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 2",
     "league": {
@@ -48883,20 +48211,26 @@
           "code": "TL",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-liquid-3wlr7jka.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         },
         {
           "name": "Invictus Gaming",
           "code": "IG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/invictus-gaming-fc6pvsnm.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -48907,7 +48241,7 @@
   },
   {
     "startTime": "2019-10-13T15:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 2",
     "league": {
@@ -48918,24 +48252,30 @@
       "id": "102844401139685018",
       "teams": [
         {
-          "name": "ahq e-Sports Club",
+          "name": "ahq eSports Club",
           "code": "AHQ",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/ahq-e-sports-club-ddwzdt6x.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         },
         {
           "name": "DAMWON Gaming",
           "code": "DWG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/damwon-gaming-2eagu86e.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         }
       ],
       "strategy": {
@@ -48946,7 +48286,7 @@
   },
   {
     "startTime": "2019-10-13T16:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 2",
     "league": {
@@ -48961,20 +48301,26 @@
           "code": "GRF",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/griffin-bizfs7k2.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 6,
+            "losses": 1
+          }
         },
         {
           "name": "G2 Esports",
           "code": "G2",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/g2-esports-3onr1cll.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -48985,7 +48331,7 @@
   },
   {
     "startTime": "2019-10-13T17:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 2",
     "league": {
@@ -49000,20 +48346,26 @@
           "code": "C9",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/cloud9-gnd9b0gn.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 2,
+            "losses": 4
+          }
         },
         {
           "name": "Hong Kong Attitude",
           "code": "HKA",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/hong-kong-attitude-eti0do8k.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         }
       ],
       "strategy": {
@@ -49024,7 +48376,7 @@
   },
   {
     "startTime": "2019-10-14T13:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 3",
     "league": {
@@ -49039,20 +48391,26 @@
           "code": "IG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/invictus-gaming-fc6pvsnm.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         },
         {
           "name": "DAMWON Gaming",
           "code": "DWG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/damwon-gaming-2eagu86e.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         }
       ],
       "strategy": {
@@ -49063,7 +48421,7 @@
   },
   {
     "startTime": "2019-10-14T14:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 3",
     "league": {
@@ -49074,24 +48432,30 @@
       "id": "102844401139947164",
       "teams": [
         {
-          "name": "ahq e-Sports Club",
+          "name": "ahq eSports Club",
           "code": "AHQ",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/ahq-e-sports-club-ddwzdt6x.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         },
         {
           "name": "Team Liquid",
           "code": "TL",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-liquid-3wlr7jka.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -49102,7 +48466,7 @@
   },
   {
     "startTime": "2019-10-14T15:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 3",
     "league": {
@@ -49117,20 +48481,26 @@
           "code": "FPX",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/funplus-phoenix-2qc3y9b8.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         },
         {
           "name": "Splyce",
           "code": "SPY",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/splyce-alf6br1o.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -49141,7 +48511,7 @@
   },
   {
     "startTime": "2019-10-14T16:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 3",
     "league": {
@@ -49156,20 +48526,26 @@
           "code": "JT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/j-team-7bc95mku.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         },
         {
           "name": "GAM Esports",
           "code": "GAM",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/marines-esports-8g5ut0y.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 1,
+            "losses": 5
+          }
         }
       ],
       "strategy": {
@@ -49180,7 +48556,7 @@
   },
   {
     "startTime": "2019-10-14T17:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 3",
     "league": {
@@ -49195,20 +48571,26 @@
           "code": "GRF",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/griffin-bizfs7k2.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 6,
+            "losses": 1
+          }
         },
         {
           "name": "Hong Kong Attitude",
           "code": "HKA",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/hong-kong-attitude-eti0do8k.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         }
       ],
       "strategy": {
@@ -49219,7 +48601,7 @@
   },
   {
     "startTime": "2019-10-14T18:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 3",
     "league": {
@@ -49234,20 +48616,26 @@
           "code": "G2",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/g2-esports-3onr1cll.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         },
         {
           "name": "Cloud9",
           "code": "C9",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/cloud9-gnd9b0gn.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 2,
+            "losses": 4
+          }
         }
       ],
       "strategy": {
@@ -49258,7 +48646,7 @@
   },
   {
     "startTime": "2019-10-15T13:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 4",
     "league": {
@@ -49273,20 +48661,26 @@
           "code": "RNG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/royal-never-give-up-cyacqft1.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         },
         {
           "name": "Fnatic",
           "code": "FNC",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/fnatic-ewbxwq2f.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -49297,7 +48691,7 @@
   },
   {
     "startTime": "2019-10-15T14:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 4",
     "league": {
@@ -49312,20 +48706,26 @@
           "code": "CG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/clutch-gaming-83a00582.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         }
       ],
       "strategy": {
@@ -49336,7 +48736,7 @@
   },
   {
     "startTime": "2019-10-15T15:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 4",
     "league": {
@@ -49351,20 +48751,26 @@
           "code": "FPX",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/funplus-phoenix-2qc3y9b8.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         },
         {
           "name": "GAM Esports",
           "code": "GAM",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/marines-esports-8g5ut0y.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 1,
+            "losses": 5
+          }
         }
       ],
       "strategy": {
@@ -49375,7 +48781,7 @@
   },
   {
     "startTime": "2019-10-15T16:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 4",
     "league": {
@@ -49390,20 +48796,26 @@
           "code": "SPY",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/splyce-alf6br1o.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 3
+          }
         },
         {
           "name": "CTBC J Team",
           "code": "JT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/j-team-7bc95mku.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -49414,7 +48826,7 @@
   },
   {
     "startTime": "2019-10-15T17:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 4",
     "league": {
@@ -49429,20 +48841,26 @@
           "code": "C9",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/cloud9-gnd9b0gn.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 2,
+            "losses": 4
+          }
         },
         {
           "name": "GRIFFIN",
           "code": "GRF",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/griffin-bizfs7k2.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 6,
+            "losses": 1
+          }
         }
       ],
       "strategy": {
@@ -49453,7 +48871,7 @@
   },
   {
     "startTime": "2019-10-15T18:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 4",
     "league": {
@@ -49468,20 +48886,26 @@
           "code": "HKA",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/hong-kong-attitude-eti0do8k.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         },
         {
           "name": "G2 Esports",
           "code": "G2",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/g2-esports-3onr1cll.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -49492,7 +48916,7 @@
   },
   {
     "startTime": "2019-10-17T13:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 5",
     "league": {
@@ -49507,20 +48931,26 @@
           "code": "GAM",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/marines-esports-8g5ut0y.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 1,
+            "losses": 5
+          }
         },
         {
           "name": "FunPlus Phoenix",
           "code": "FPX",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/funplus-phoenix-2qc3y9b8.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -49531,7 +48961,7 @@
   },
   {
     "startTime": "2019-10-17T14:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 5",
     "league": {
@@ -49546,20 +48976,26 @@
           "code": "JT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/j-team-7bc95mku.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         },
         {
           "name": "Splyce",
           "code": "SPY",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/splyce-alf6br1o.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -49570,7 +49006,7 @@
   },
   {
     "startTime": "2019-10-17T15:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 5",
     "league": {
@@ -49585,20 +49021,26 @@
           "code": "GAM",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/marines-esports-8g5ut0y.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 1,
+            "losses": 5
+          }
         },
         {
           "name": "CTBC J Team",
           "code": "JT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/j-team-7bc95mku.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -49609,7 +49051,7 @@
   },
   {
     "startTime": "2019-10-17T16:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 5",
     "league": {
@@ -49624,20 +49066,26 @@
           "code": "SPY",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/splyce-alf6br1o.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 3
+          }
         },
         {
           "name": "FunPlus Phoenix",
           "code": "FPX",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/funplus-phoenix-2qc3y9b8.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -49648,7 +49096,7 @@
   },
   {
     "startTime": "2019-10-17T17:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 5",
     "league": {
@@ -49663,20 +49111,26 @@
           "code": "SPY",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/splyce-alf6br1o.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 3
+          }
         },
         {
           "name": "GAM Esports",
           "code": "GAM",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/marines-esports-8g5ut0y.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 1,
+            "losses": 5
+          }
         }
       ],
       "strategy": {
@@ -49687,7 +49141,7 @@
   },
   {
     "startTime": "2019-10-17T18:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 5",
     "league": {
@@ -49702,20 +49156,71 @@
           "code": "FPX",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/funplus-phoenix-2qc3y9b8.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         },
         {
           "name": "CTBC J Team",
           "code": "JT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/j-team-7bc95mku.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
+        }
+      ],
+      "strategy": {
+        "type": "bestOf",
+        "count": 1
+      }
+    }
+  },
+  {
+    "startTime": "2019-10-17T19:00:00Z",
+    "state": "completed",
+    "type": "match",
+    "blockName": "Day 5",
+    "league": {
+      "name": "Worlds",
+      "slug": "worlds"
+    },
+    "match": {
+      "id": "102979081267197323",
+      "teams": [
+        {
+          "name": "FunPlus Phoenix",
+          "code": "FPX",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/funplus-phoenix-2qc3y9b8.png",
+          "result": {
+            "outcome": "win",
+            "gameWins": 1
+          },
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
+        },
+        {
+          "name": "Splyce",
+          "code": "SPY",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/splyce-alf6br1o.png",
+          "result": {
+            "outcome": "loss",
+            "gameWins": 0
+          },
+          "record": {
+            "wins": 4,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -49726,7 +49231,7 @@
   },
   {
     "startTime": "2019-10-18T13:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 6",
     "league": {
@@ -49741,20 +49246,26 @@
           "code": "GRF",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/griffin-bizfs7k2.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 6,
+            "losses": 1
+          }
         },
         {
           "name": "Cloud9",
           "code": "C9",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/cloud9-gnd9b0gn.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 2,
+            "losses": 4
+          }
         }
       ],
       "strategy": {
@@ -49765,7 +49276,7 @@
   },
   {
     "startTime": "2019-10-18T14:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 6",
     "league": {
@@ -49780,20 +49291,26 @@
           "code": "G2",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/g2-esports-3onr1cll.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         },
         {
           "name": "Hong Kong Attitude",
           "code": "HKA",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/hong-kong-attitude-eti0do8k.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         }
       ],
       "strategy": {
@@ -49804,7 +49321,7 @@
   },
   {
     "startTime": "2019-10-18T15:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 6",
     "league": {
@@ -49819,20 +49336,26 @@
           "code": "HKA",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/hong-kong-attitude-eti0do8k.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         },
         {
           "name": "GRIFFIN",
           "code": "GRF",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/griffin-bizfs7k2.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 6,
+            "losses": 1
+          }
         }
       ],
       "strategy": {
@@ -49843,7 +49366,7 @@
   },
   {
     "startTime": "2019-10-18T16:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 6",
     "league": {
@@ -49858,20 +49381,26 @@
           "code": "C9",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/cloud9-gnd9b0gn.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 2,
+            "losses": 4
+          }
         },
         {
           "name": "G2 Esports",
           "code": "G2",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/g2-esports-3onr1cll.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -49882,7 +49411,7 @@
   },
   {
     "startTime": "2019-10-18T17:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 6",
     "league": {
@@ -49897,20 +49426,26 @@
           "code": "HKA",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/hong-kong-attitude-eti0do8k.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         },
         {
           "name": "Cloud9",
           "code": "C9",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/cloud9-gnd9b0gn.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 2,
+            "losses": 4
+          }
         }
       ],
       "strategy": {
@@ -49921,7 +49456,7 @@
   },
   {
     "startTime": "2019-10-18T18:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 6",
     "league": {
@@ -49936,20 +49471,71 @@
           "code": "G2",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/g2-esports-3onr1cll.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
         },
         {
           "name": "GRIFFIN",
           "code": "GRF",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/griffin-bizfs7k2.png",
           "result": {
-            "outcome": null,
+            "outcome": "win",
+            "gameWins": 1
+          },
+          "record": {
+            "wins": 6,
+            "losses": 1
+          }
+        }
+      ],
+      "strategy": {
+        "type": "bestOf",
+        "count": 1
+      }
+    }
+  },
+  {
+    "startTime": "2019-10-18T19:00:00Z",
+    "state": "completed",
+    "type": "match",
+    "blockName": "Day 6",
+    "league": {
+      "name": "Worlds",
+      "slug": "worlds"
+    },
+    "match": {
+      "id": "102984708134308983",
+      "teams": [
+        {
+          "name": "G2 Esports",
+          "code": "G2",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/g2-esports-3onr1cll.png",
+          "result": {
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 2
+          }
+        },
+        {
+          "name": "GRIFFIN",
+          "code": "GRF",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/griffin-bizfs7k2.png",
+          "result": {
+            "outcome": "win",
+            "gameWins": 1
+          },
+          "record": {
+            "wins": 6,
+            "losses": 1
+          }
         }
       ],
       "strategy": {
@@ -49960,7 +49546,7 @@
   },
   {
     "startTime": "2019-10-19T12:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 7",
     "league": {
@@ -49975,20 +49561,26 @@
           "code": "RNG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/royal-never-give-up-cyacqft1.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         },
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         }
       ],
       "strategy": {
@@ -49999,7 +49591,7 @@
   },
   {
     "startTime": "2019-10-19T13:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 7",
     "league": {
@@ -50014,20 +49606,26 @@
           "code": "CG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/clutch-gaming-83a00582.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         },
         {
           "name": "Fnatic",
           "code": "FNC",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/fnatic-ewbxwq2f.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -50038,7 +49636,7 @@
   },
   {
     "startTime": "2019-10-19T14:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 7",
     "league": {
@@ -50049,24 +49647,30 @@
       "id": "102844341893542539",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         },
         {
           "name": "Fnatic",
           "code": "FNC",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/fnatic-ewbxwq2f.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -50077,7 +49681,7 @@
   },
   {
     "startTime": "2019-10-19T15:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 7",
     "league": {
@@ -50092,20 +49696,26 @@
           "code": "CG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/clutch-gaming-83a00582.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         },
         {
           "name": "Royal Never Give Up",
           "code": "RNG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/royal-never-give-up-cyacqft1.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -50116,7 +49726,7 @@
   },
   {
     "startTime": "2019-10-19T16:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 7",
     "league": {
@@ -50127,24 +49737,30 @@
       "id": "102844341889675905",
       "teams": [
         {
-          "name": "SK telecom T1",
+          "name": "SK Telecom T1",
           "code": "SKT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         },
         {
           "name": "Clutch Gaming",
           "code": "CG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/clutch-gaming-83a00582.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         }
       ],
       "strategy": {
@@ -50155,7 +49771,7 @@
   },
   {
     "startTime": "2019-10-19T17:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 7",
     "league": {
@@ -50170,20 +49786,26 @@
           "code": "FNC",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/fnatic-ewbxwq2f.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         },
         {
           "name": "Royal Never Give Up",
           "code": "RNG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/royal-never-give-up-cyacqft1.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -50194,7 +49816,7 @@
   },
   {
     "startTime": "2019-10-20T12:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 8",
     "league": {
@@ -50205,24 +49827,30 @@
       "id": "102844401139226263",
       "teams": [
         {
-          "name": "ahq e-Sports Club",
+          "name": "ahq eSports Club",
           "code": "AHQ",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/ahq-e-sports-club-ddwzdt6x.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         },
         {
           "name": "Invictus Gaming",
           "code": "IG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/invictus-gaming-fc6pvsnm.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -50233,7 +49861,7 @@
   },
   {
     "startTime": "2019-10-20T13:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 8",
     "league": {
@@ -50248,20 +49876,26 @@
           "code": "TL",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-liquid-3wlr7jka.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         },
         {
           "name": "DAMWON Gaming",
           "code": "DWG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/damwon-gaming-2eagu86e.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         }
       ],
       "strategy": {
@@ -50272,7 +49906,7 @@
   },
   {
     "startTime": "2019-10-20T14:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 8",
     "league": {
@@ -50287,20 +49921,26 @@
           "code": "TL",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-liquid-3wlr7jka.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         },
         {
-          "name": "ahq e-Sports Club",
+          "name": "ahq eSports Club",
           "code": "AHQ",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/ahq-e-sports-club-ddwzdt6x.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         }
       ],
       "strategy": {
@@ -50311,7 +49951,7 @@
   },
   {
     "startTime": "2019-10-20T15:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 8",
     "league": {
@@ -50326,20 +49966,26 @@
           "code": "DWG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/damwon-gaming-2eagu86e.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         },
         {
           "name": "Invictus Gaming",
           "code": "IG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/invictus-gaming-fc6pvsnm.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         }
       ],
       "strategy": {
@@ -50350,7 +49996,7 @@
   },
   {
     "startTime": "2019-10-20T16:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 8",
     "league": {
@@ -50365,20 +50011,26 @@
           "code": "DWG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/damwon-gaming-2eagu86e.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 5,
+            "losses": 1
+          }
         },
         {
-          "name": "ahq e-Sports Club",
+          "name": "ahq eSports Club",
           "code": "AHQ",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/ahq-e-sports-club-ddwzdt6x.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 0,
+            "losses": 6
+          }
         }
       ],
       "strategy": {
@@ -50389,7 +50041,7 @@
   },
   {
     "startTime": "2019-10-20T17:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Day 8",
     "league": {
@@ -50404,20 +50056,26 @@
           "code": "IG",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/invictus-gaming-fc6pvsnm.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
-          "record": null
+          "record": {
+            "wins": 4,
+            "losses": 2
+          }
         },
         {
           "name": "Team Liquid",
           "code": "TL",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-liquid-3wlr7jka.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
-          "record": null
+          "record": {
+            "wins": 3,
+            "losses": 3
+          }
         }
       ],
       "strategy": {
@@ -50439,17 +50097,23 @@
       "id": "102844412694338854",
       "teams": [
         {
-          "name": "TBD",
-          "code": "TBD",
-          "image": "http://assets.lolesports.com/watch/team-tbd.png",
-          "result": null,
+          "name": "GRIFFIN",
+          "code": "GRF",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/griffin-bizfs7k2.png",
+          "result": {
+            "outcome": null,
+            "gameWins": 0
+          },
           "record": null
         },
         {
-          "name": "TBD",
-          "code": "TBD",
-          "image": "http://assets.lolesports.com/watch/team-tbd.png",
-          "result": null,
+          "name": "Invictus Gaming",
+          "code": "IG",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/invictus-gaming-fc6pvsnm.png",
+          "result": {
+            "outcome": null,
+            "gameWins": 0
+          },
           "record": null
         }
       ],
@@ -50472,17 +50136,23 @@
       "id": "102844412694928680",
       "teams": [
         {
-          "name": "TBD",
-          "code": "TBD",
-          "image": "http://assets.lolesports.com/watch/team-tbd.png",
-          "result": null,
+          "name": "FunPlus Phoenix",
+          "code": "FPX",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/funplus-phoenix-2qc3y9b8.png",
+          "result": {
+            "outcome": null,
+            "gameWins": 0
+          },
           "record": null
         },
         {
-          "name": "TBD",
-          "code": "TBD",
-          "image": "http://assets.lolesports.com/watch/team-tbd.png",
-          "result": null,
+          "name": "Fnatic",
+          "code": "FNC",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/fnatic-ewbxwq2f.png",
+          "result": {
+            "outcome": null,
+            "gameWins": 0
+          },
           "record": null
         }
       ],
@@ -50505,17 +50175,23 @@
       "id": "102844412694011173",
       "teams": [
         {
-          "name": "TBD",
-          "code": "TBD",
-          "image": "http://assets.lolesports.com/watch/team-tbd.png",
-          "result": null,
+          "name": "SK Telecom T1",
+          "code": "SKT",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/sktelecom-t1-ca62upz0.png",
+          "result": {
+            "outcome": null,
+            "gameWins": 0
+          },
           "record": null
         },
         {
-          "name": "TBD",
-          "code": "TBD",
-          "image": "http://assets.lolesports.com/watch/team-tbd.png",
-          "result": null,
+          "name": "Splyce",
+          "code": "SPY",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/splyce-alf6br1o.png",
+          "result": {
+            "outcome": null,
+            "gameWins": 0
+          },
           "record": null
         }
       ],
@@ -50538,17 +50214,23 @@
       "id": "102844412694666535",
       "teams": [
         {
-          "name": "TBD",
-          "code": "TBD",
-          "image": "http://assets.lolesports.com/watch/team-tbd.png",
-          "result": null,
+          "name": "DAMWON Gaming",
+          "code": "DWG",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/damwon-gaming-2eagu86e.png",
+          "result": {
+            "outcome": null,
+            "gameWins": 0
+          },
           "record": null
         },
         {
-          "name": "TBD",
-          "code": "TBD",
-          "image": "http://assets.lolesports.com/watch/team-tbd.png",
-          "result": null,
+          "name": "G2 Esports",
+          "code": "G2",
+          "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/g2-esports-3onr1cll.png",
+          "result": {
+            "outcome": null,
+            "gameWins": 0
+          },
           "record": null
         }
       ],
