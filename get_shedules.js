@@ -3,26 +3,51 @@
 const request = require("request")
 const querystring = require("querystring")
 const fs = require("fs")
+const path = require("path")
+
+const MIN_DATE = "2019-06-00"
 
 const URL = "https://prod-relapi.ewp.gg/persisted/gw/getSchedule"
 const URL_PARAMS = {
   hl: "en-US",
 }
 
-const LEAGUES = {
-  WORLDS: "Worlds",
-  ALLSTARS: "All-Star Event",
-  EU: "European Masters",
-  LCS: "LCS",
-  LEC: "LEC",
-  LCK: "LCK",
-  LPL: "LPL",
-  LCSA: "LCS Academy",
-  MSI: "MSI",
-  RIFT_EAST: "Rift Rivals: KR/CN/LMS/VN",
-  RIFT_WEST: "Rift Rivals: NA vs. EU",
+const EVENT_INTERNAL_SLUGS = {
+  WORLDS: "worlds",
+  ALLSTARS: "allstarts",
+  EU: "eu",
+  LCS: "lcs",
+  LEC: "lec",
+  LCK: "lck",
+  LPL: "lpl",
+  LCSA: "lcsa",
+  MSI: "msi",
+  RIFT_EAST: "rift_east",
+  RIFT_WEST: "rift_west",
+  MSC: "msc",
 }
 
+const EVENTS_NAMES = {
+  [EVENT_INTERNAL_SLUGS.WORLDS]: "Worlds",
+  [EVENT_INTERNAL_SLUGS.ALLSTARS]: "All-Star Event",
+  [EVENT_INTERNAL_SLUGS.EU]: "European Masters",
+  [EVENT_INTERNAL_SLUGS.LCS]: "LCS",
+  [EVENT_INTERNAL_SLUGS.LEC]: "LEC",
+  [EVENT_INTERNAL_SLUGS.LCK]: "LCK",
+  [EVENT_INTERNAL_SLUGS.LPL]: "LPL",
+  [EVENT_INTERNAL_SLUGS.LCSA]: "LCS Academy",
+  [EVENT_INTERNAL_SLUGS.MSI]: "MSI",
+  [EVENT_INTERNAL_SLUGS.RIFT_EAST]: "Rift Rivals: KR/CN/LMS/VN",
+  [EVENT_INTERNAL_SLUGS.RIFT_WEST]: "Rift Rivals: NA vs. EU",
+  [EVENT_INTERNAL_SLUGS.MSC]: "Mid-Season Cup",
+}
+
+const EVENT_NAME_TO_SLUG = {}
+for (const [eventSlug, eventName] of Object.entries(EVENTS_NAMES)) {
+  EVENT_NAME_TO_SLUG[eventName] = eventSlug
+}
+
+// Rift Rivals is currently not available, but it does not cause any errors
 const LEAGUES_JSON = {
   data: {
     leagues: [
@@ -31,16 +56,24 @@ const LEAGUES_JSON = {
         slug: "european-masters",
         name: "European Masters",
         region: "EUROPE",
+        image: "http://static.lolesports.com/leagues/1585044513499_EM_BUG_2020%20(1).png",
+        priority: 213,
+      },
+      {
+        id: "101097443346691685",
+        slug: "turkey-academy-league",
+        name: "TAL",
+        region: "TURKEY",
         image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/european-masters-6uqdmwq0.png",
-        priority: 215,
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/turkey-academy-league-8l5m5u43.png",
+        priority: 1000,
       },
       {
         id: "101382741235120470",
         slug: "lla",
         name: "LLA",
         region: "LATIN AMERICA",
-        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lla-55ylm4hf.png",
+        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lla-3npx8e46.png",
         priority: 206,
       },
       {
@@ -50,7 +83,23 @@ const LEAGUES_JSON = {
         region: "INTERNATIONAL",
         image:
           "https://lolstatic-a.akamaihd.net/esports-assets/production/league/rift-rivals-kr-cn-lms-vn-95oqqlz8.png",
-        priority: 213,
+        priority: 999,
+      },
+      {
+        id: "104207827168893622",
+        slug: "midseason-cup",
+        name: "Mid-Season Cup",
+        region: "INTERNATIONAL",
+        image: "http://static.lolesports.com/leagues/1590701495142_midseason-cup.png",
+        priority: 214,
+      },
+      {
+        id: "104207832853093047",
+        slug: "midseason-streamathon",
+        name: "Mid-Season Streamathon",
+        region: "INTERNATIONAL",
+        image: "http://static.lolesports.com/leagues/1590701509841_mid.png",
+        priority: 215,
       },
       {
         id: "98767975604431411",
@@ -59,7 +108,7 @@ const LEAGUES_JSON = {
         region: "INTERNATIONAL",
         image:
           "https://lolstatic-a.akamaihd.net/esports-assets/production/league/worlds-3om032jn.png",
-        priority: 0,
+        priority: 209,
       },
       {
         id: "98767991295297326",
@@ -67,7 +116,7 @@ const LEAGUES_JSON = {
         name: "All-Star Event",
         region: "INTERNATIONAL",
         image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/all-star-1bgd8l0u.png",
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/all-star-dtf4kf16.png",
         priority: 211,
       },
       {
@@ -118,7 +167,7 @@ const LEAGUES_JSON = {
         name: "OPL",
         region: "OCEANIA",
         image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/oce-opl-aun5eljl.png",
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/oce-opl-e0qfb3l8.png",
         priority: 207,
       },
       {
@@ -127,7 +176,7 @@ const LEAGUES_JSON = {
         name: "CBLOL",
         region: "BRAZIL",
         image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/cblol-brazil-dox5yh1x.png",
+          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/cblol-brazil-46x5zjmg.png",
         priority: 204,
       },
       {
@@ -146,7 +195,7 @@ const LEAGUES_JSON = {
         region: "NORTH AMERICA",
         image:
           "https://lolstatic-a.akamaihd.net/esports-assets/production/league/league-of-legends-college-championship-h6j74ouz.png",
-        priority: 214,
+        priority: 212,
       },
       {
         id: "98767991349978712",
@@ -164,7 +213,7 @@ const LEAGUES_JSON = {
         region: "INTERNATIONAL",
         image:
           "https://lolstatic-a.akamaihd.net/esports-assets/production/league/rift-rivals-na-eu-1ts7gmu5.png",
-        priority: 212,
+        priority: 999,
       },
       {
         id: "99332500638116286",
@@ -179,111 +228,133 @@ const LEAGUES_JSON = {
   },
 }
 
-const SHORT_NAMES = {
-  [LEAGUES.LEC]: "🇪🇺",
-  [LEAGUES.EU]: "🇪🇺",
-  [LEAGUES.LCS]: "🇺🇸",
-  [LEAGUES.LPL]: "🇨🇳",
-  [LEAGUES.LCK]: "🇰🇷",
-  [LEAGUES.LCSA]: "A🇺🇸",
-  [LEAGUES.WORLDS]: "",
-  [LEAGUES.ALLSTARS]: "",
-  [LEAGUES.MSI]: "",
-  [LEAGUES.RIFT_EAST]: "",
-  [LEAGUES.RIFT_WEST]: "",
+const REGIONAL_FLAGS = {
+  EU: "🇪🇺",
+  US: "🇺🇸",
+  KR: "🇰🇷",
+  CN: "🇨🇳",
 }
-const CALENDARS = {
-  LCS: [LEAGUES.LCS],
-  LEC: [LEAGUES.LEC],
-  LCK: [LEAGUES.LCK],
-  LPL: [LEAGUES.LPL],
-  INTERNATIONAL: [
-    LEAGUES.WORLDS,
-    LEAGUES.MSI,
-    LEAGUES.RIFT_WEST,
-    LEAGUES.RIFT_EAST,
-    LEAGUES.ALLSTARS,
+
+const EVENT_REGIONAL_FLAGS = {
+  [EVENT_INTERNAL_SLUGS.LEC]: REGIONAL_FLAGS.EU,
+  [EVENT_INTERNAL_SLUGS.EU]: REGIONAL_FLAGS.EU,
+  [EVENT_INTERNAL_SLUGS.LCS]: REGIONAL_FLAGS.US,
+  [EVENT_INTERNAL_SLUGS.LCSA]: REGIONAL_FLAGS.US,
+  [EVENT_INTERNAL_SLUGS.LCK]: REGIONAL_FLAGS.KR,
+  [EVENT_INTERNAL_SLUGS.LPL]: REGIONAL_FLAGS.CN,
+}
+
+// team specific calendars will be generated for these leagues
+// number of teams is required to include only newest split teams
+const LEAGUE_TEAMS_COUNT = {
+  [EVENT_INTERNAL_SLUGS.LEC]: 10,
+  [EVENT_INTERNAL_SLUGS.LCS]: 10,
+  [EVENT_INTERNAL_SLUGS.LCSA]: 10,
+  [EVENT_INTERNAL_SLUGS.LPL]: 17,
+  [EVENT_INTERNAL_SLUGS.LCK]: 10,
+}
+const UNKNOWN_TEAM_NAME = "TBD"
+const LEAGUE_TEAMS = {}
+Object.keys(LEAGUE_TEAMS_COUNT).forEach(eventSlug => {
+  LEAGUE_TEAMS[eventSlug] = new Set()
+})
+
+// filters events by league name
+function theseEvents(eventSlugs) {
+  const eventNames = eventSlugs.map(eventSlug => EVENTS_NAMES[eventSlug])
+  return event => eventNames.indexOf(event.league.name) !== -1
+}
+
+// filters events by participating team name
+function thisTeam(team) {
+  return event => event.match.teams[0].code === team || event.match.teams[1].code === team
+}
+
+const SINGLE_EVENT_CALENDARS = {
+  LEC: EVENT_INTERNAL_SLUGS.LEC,
+  LCS: EVENT_INTERNAL_SLUGS.LCS,
+  LCK: EVENT_INTERNAL_SLUGS.LCK,
+  LPL: EVENT_INTERNAL_SLUGS.LPL,
+  MSI: EVENT_INTERNAL_SLUGS.MSI,
+  Worlds: EVENT_INTERNAL_SLUGS.WORLDS,
+  "Rift Rivals West": EVENT_INTERNAL_SLUGS.RIFT_WEST,
+  "Rift Rivals East": EVENT_INTERNAL_SLUGS.RIFT_EAST,
+  "European Masters": EVENT_INTERNAL_SLUGS.EU,
+  "LCS Academy": EVENT_INTERNAL_SLUGS.LCSA,
+  "All-Star": EVENT_INTERNAL_SLUGS.ALLSTARS,
+  MSC: EVENT_INTERNAL_SLUGS.MSC,
+}
+
+const FOLLOW_LEAGUE_CALENDAR_COMBINATIONS = {
+  LEC: [
+    EVENT_INTERNAL_SLUGS.LEC,
+    EVENT_INTERNAL_SLUGS.RIFT_WEST,
+    EVENT_INTERNAL_SLUGS.MSI,
+    EVENT_INTERNAL_SLUGS.WORLDS,
+    EVENT_INTERNAL_SLUGS.ALLSTARS,
   ],
-  // "LCSA": [LEAGUES.LCSA],
-  CUSTOM: [
-    LEAGUES.WORLDS,
-    LEAGUES.EU,
-    LEAGUES.ALLSTARS,
-    LEAGUES.MSI,
-    LEAGUES.LEC,
-    LEAGUES.LCK,
-    LEAGUES.LCS,
-    LEAGUES.RIFT_EAST,
-    LEAGUES.RIFT_WEST,
+  LCS: [
+    EVENT_INTERNAL_SLUGS.LCS,
+    EVENT_INTERNAL_SLUGS.RIFT_WEST,
+    EVENT_INTERNAL_SLUGS.MSI,
+    EVENT_INTERNAL_SLUGS.WORLDS,
+    EVENT_INTERNAL_SLUGS.ALLSTARS,
   ],
-  // "NA": [LEAGUES.LCS, LEAGUES.LCSA],
+  LCK: [
+    EVENT_INTERNAL_SLUGS.LCK,
+    EVENT_INTERNAL_SLUGS.RIFT_EAST,
+    EVENT_INTERNAL_SLUGS.MSI,
+    EVENT_INTERNAL_SLUGS.WORLDS,
+    EVENT_INTERNAL_SLUGS.ALLSTARS,
+    EVENT_INTERNAL_SLUGS.MSC,
+  ],
+  LPL: [
+    EVENT_INTERNAL_SLUGS.LPL,
+    EVENT_INTERNAL_SLUGS.RIFT_EAST,
+    EVENT_INTERNAL_SLUGS.MSI,
+    EVENT_INTERNAL_SLUGS.WORLDS,
+    EVENT_INTERNAL_SLUGS.ALLSTARS,
+    EVENT_INTERNAL_SLUGS.MSC,
+  ],
+  "LCS Academy": [EVENT_INTERNAL_SLUGS.LCSA],
+  "European Masters": [EVENT_INTERNAL_SLUGS.EU],
 }
 
-const SMALL_HIGHLIGHT = "⭐"
-const BIG_HIGHLIGHT = "🌟"
+const EVENTS_TO_CRAWL = (() => {
+  const eventSlugs = new Set()
 
-// -1 = hide
-//  0 = neutral
-//  3 = +
-//  4 = +++
-const TEAM_PRIORITY = {
-  // // LCK
-  // GRF: 2,
-  // SB: 2,
-  // KZ: 2,
-  // DWG: 2,
-  // AF: 2,
-  // SKT: 1,
-  // JAG: -1,
-  // HLE: -1,
-  //
-  // // LPL
-  // IG: 2,
-  // RNG: 2,
-  // TOP: 2,
-  // FPX: 2,
-  // EDG: 1,
-  //
-  // // EU
-  // G2: 2,
-  // FNC: 2,
-  // OG: 1,
-  //
-  // // NA
-  // C9: 2,
-  // CLG: 2,
-  // TSM: 2,
-  // TL: 2,
-  // GGS: 1,
-}
+  Object.values(SINGLE_EVENT_CALENDARS).forEach(eventSlug => {
+    eventSlugs.add(eventSlug)
+  })
 
-const LEAGUE_PRIORITY = {
-  // [LEAGUES.LPL]: -3,
-}
+  Object.keys(LEAGUE_TEAMS_COUNT).forEach(eventSlug => {
+    eventSlugs.add(eventSlug)
+  })
 
-const LEAGUES_TO_CRAWL = (function() {
-  const names = {}
-
-  Object.values(CALENDARS).forEach(function(leagues) {
-    leagues.forEach(function(league) {
-      names[league] = true
+  Object.values(FOLLOW_LEAGUE_CALENDAR_COMBINATIONS).forEach(_eventSlugs => {
+    _eventSlugs.forEach(eventSlug => {
+      eventSlugs.add(eventSlug)
     })
   })
 
-  const leagues = LEAGUES_JSON.data.leagues
-  return Object.keys(names)
-    .map(function(name) {
-      const l = leagues.find(function(it) {
-        return it.name === name
-      })
+  if (Object.entries(LEAGUE_TEAMS_COUNT).length !== 0) {
+    eventSlugs.add(EVENT_INTERNAL_SLUGS.WORLDS)
+    eventSlugs.add(EVENT_INTERNAL_SLUGS.MSI)
+    eventSlugs.add(EVENT_INTERNAL_SLUGS.RIFT_EAST)
+    eventSlugs.add(EVENT_INTERNAL_SLUGS.RIFT_WEST)
+  }
+
+  const events = LEAGUES_JSON.data.leagues
+  return [...eventSlugs]
+    .map(eventSlug => EVENTS_NAMES[eventSlug])
+    .map(eventName => {
+      const l = events.find(it => it.name === eventName)
       return l && l.id
     })
-    .filter(function(it) {
-      return it
-    })
+    .filter(it => it)
 })()
 
-URL_PARAMS.leagueId = LEAGUES_TO_CRAWL.join(",")
+URL_PARAMS.leagueId = EVENTS_TO_CRAWL.join(",")
 
 let xApiKey = "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z"
 
@@ -331,7 +402,7 @@ function getNextPage(pageToken) {
         nextPage = older
         older = null
       } else {
-        if (!firstEventStartTime.startsWith("2018")) {
+        if (firstEventStartTime > MIN_DATE) {
           nextPage = data.pages.older
         }
       }
@@ -346,92 +417,157 @@ function getNextPage(pageToken) {
 }
 
 function generateCalendar() {
+  for (let i = allEvents.length - 1; i >= 0; i--) {
+    if (allEvents[i].type === "show") {
+      allEvents.splice(i, 1)
+    }
+  }
+
   allEvents.sort(
     (a, b) => a.startTime.localeCompare(b.startTime) || a.match.id.localeCompare(b.match.id)
   )
-  Object.keys(CALENDARS).forEach(function(calendarName) {
-    const calendarLeagues = CALENDARS[calendarName]
 
-    let calendarString = `BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:github.com/coIIector/lol-esport-calendar/${calendarName}
-NAME:LoL esport
-X-WR-CALNAME:LoL esport
-X-PUBLISHED-TTL:P1W`
-
-    allEvents.forEach(function(event) {
-      if (calendarLeagues.indexOf(event.league.name) === -1) return
-
-      const ts = new Date(Date.parse(event.startTime))
-
-      let matchLength = 1000 * 60 * 60
-      let bo = null
-      if (event.match.strategy.type === "bestOf") bo = event.match.strategy.count
-
-      if (bo) {
-        matchLength *= bo - (bo - 1) / 4
+  // determine list of teams
+  allEvents.reverse() // search for names in newest events first
+  for (const event of allEvents) {
+    const eventSlug = EVENT_NAME_TO_SLUG[event.league.name]
+    if (eventSlug in LEAGUE_TEAMS) {
+      if (LEAGUE_TEAMS[eventSlug].size < LEAGUE_TEAMS_COUNT[eventSlug]) {
+        for (const { code } of event.match.teams) {
+          if (code !== UNKNOWN_TEAM_NAME) {
+            LEAGUE_TEAMS[eventSlug].add(code)
+          }
+        }
       }
+    }
+  }
+  allEvents.reverse() // reverse back
 
-      const te = new Date(Date.parse(event.startTime) + matchLength)
+  console.log("Teams found:")
+  console.log(LEAGUE_TEAMS)
 
-      let leagueName = null
-      if (calendarLeagues.length !== 1) {
-        leagueName = event.league.name
-        if (leagueName in SHORT_NAMES) leagueName = SHORT_NAMES[leagueName]
+  writeFileAsync(
+    "calendar/data.json",
+    JSON.stringify(
+      {
+        teams: LEAGUE_TEAMS,
+        combinations: FOLLOW_LEAGUE_CALENDAR_COMBINATIONS,
+        eventNames: EVENTS_NAMES,
+      },
+      function(key, value) {
+        if (typeof value === "object" && value instanceof Set) {
+          return [...value]
+        }
+        return value
       }
+    )
+  )
 
-      let summary = leagueName || ""
+  const calendars = {}
+  for (const [eventDisplayName, eventSlug] of Object.entries(SINGLE_EVENT_CALENDARS)) {
+    calendars[`${eventDisplayName}/all`] = theseEvents([eventSlug])
+  }
+  for (const [eventSlug, setOfTeams] of Object.entries(LEAGUE_TEAMS)) {
+    for (const team of setOfTeams) {
+      calendars[`${eventSlug}/${team}`] = thisTeam(team)
+    }
+  }
 
-      let highlight = LEAGUE_PRIORITY[event.league.name] || 0
+  forAllCombinations(Object.keys(FOLLOW_LEAGUE_CALENDAR_COMBINATIONS), combination => {
+    if (combination.length === 0) return
 
-      event.match.teams.forEach(function(team) {
-        highlight += TEAM_PRIORITY[team.code] || 0
-      })
-
-      summary += event.match.teams[0].code + "×" + event.match.teams[1].code
-
-      if (highlight < 0) {
-        return
-      } else if (highlight === 3) {
-        summary += SMALL_HIGHLIGHT
-      } else if (highlight === 4) {
-        summary += BIG_HIGHLIGHT
+    const filename = combination.join(" ")
+    const eventSlugs = []
+    for (const name of combination) {
+      for (const eventSlug of FOLLOW_LEAGUE_CALENDAR_COMBINATIONS[name]) {
+        eventSlugs.push(eventSlug)
       }
-
-      calendarString += "\nBEGIN:VEVENT"
-      calendarString += "\nDTSTART:" + formatDate(ts)
-      calendarString += "\nDTEND:" + formatDate(te)
-
-      calendarString += "\nSUMMARY:" + summary
-
-      let description = event.blockName + "|"
-      if (bo) description += "bo" + bo + "|"
-
-      description += "https://watch.na.lolesports.com/vod/" + event.match.id
-
-      calendarString += "\nDESCRIPTION:" + description
-      calendarString += "\nURL:" + "https://watch.na.lolesports.com/vod/" + event.match.id
-      calendarString += "\nEND:VEVENT"
-    })
-
-    calendarString += "\nEND:VCALENDAR"
-
-    fs.writeFile("output/" + calendarName + ".ics", calendarString, function(err) {
-      if (err) {
-        return console.log(err)
-      }
-
-      console.log("Saved", calendarName)
-    })
-  })
-
-  fs.writeFile("output/allEvents.json", JSON.stringify(allEvents, null, 2), function(err) {
-    if (err) {
-      return console.log(err)
     }
 
-    console.log("Saved", "allEvents.json")
+    calendars[filename] = theseEvents(eventSlugs)
   })
+
+  for (const includeResults of [true /*, false*/]) {
+    for (const includePrefixes of ["flag" /*, true, false*/]) {
+      for (const [calendarName, eventFilter] of Object.entries(calendars)) {
+        let calendarString = `BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:github.com/coiiector/lol-calendar/${calendarName}
+NAME:LoL
+X-WR-CALNAME:LoL
+X-PUBLISHED-TTL:P1W`
+
+        let fileName = calendarName
+        if (includeResults === false) {
+          fileName += "_noresults"
+        }
+        if (includePrefixes === true) {
+          fileName += "_prefix"
+        } else if (includePrefixes === false) {
+          fileName += "_noflags"
+        }
+
+        allEvents.forEach(event => {
+          if (!eventFilter(event)) return
+
+          const matchId = event.match.id
+          const startTime = new Date(Date.parse(event.startTime))
+
+          let duration = 1000 * 60 * 60
+          let bo = null
+          if (event.match.strategy.type === "bestOf") bo = event.match.strategy.count
+
+          if (bo) {
+            duration *= bo - (bo - 1) / 4
+          }
+
+          const endTime = new Date(Date.parse(event.startTime) + duration)
+
+          let summary = ""
+          let eventSlug = EVENT_NAME_TO_SLUG[event.league.name]
+          if (includePrefixes === "flag") {
+            summary += EVENT_REGIONAL_FLAGS[eventSlug] || ""
+          }
+          /*if (includePrefixes === true) {
+            summary += SHORT_NAMES[leagueName] || ""
+          }*/
+
+          let separator = "×"
+          if (
+            includeResults === true &&
+            event.match.teams[0].result &&
+            event.match.teams[0].result.outcome
+          )
+            separator = ` ${event.match.teams[0].result.gameWins}-${event.match.teams[1].result.gameWins} `
+
+          summary += event.match.teams[0].code + separator + event.match.teams[1].code
+
+          calendarString += "\nBEGIN:VEVENT"
+          calendarString += "\nUID:lol-match-" + matchId
+          calendarString += "\nDTSTART:" + formatDate(startTime)
+          calendarString += "\nDTEND:" + formatDate(endTime)
+
+          calendarString += "\nSUMMARY:" + summary
+
+          let description = event.blockName + "\\n"
+          if (bo) description += "bo" + bo + "\\n"
+
+          description += "https://watch.lolesports.com/vod/" + matchId
+
+          calendarString += "\nDESCRIPTION:" + description
+          calendarString += "\nURL:" + "https://watch.lolesports.com/vod/" + matchId
+          // todo: CATEGORIES
+          calendarString += "\nEND:VEVENT"
+        })
+
+        calendarString += "\nEND:VCALENDAR"
+
+        writeFileAsync("calendar/" + fileName + ".ics", calendarString)
+      }
+    }
+  }
+
+  writeFileAsync("calendar/allEvents.json", JSON.stringify(allEvents, null, 2))
 
   function formatDate(date) {
     return (
@@ -452,6 +588,43 @@ X-PUBLISHED-TTL:P1W`
         return number
       }
     }
+  }
+}
+
+function writeFileAsync(filePath, content) {
+  filePath = filePath.toLowerCase().replace(/[\s,_&]+/g, "_")
+  ensureDirectoryExistence(filePath)
+
+  fs.writeFile(filePath, content, function(err) {
+    if (err) {
+      return console.log(err)
+    }
+
+    console.log("Saved", filePath)
+  })
+
+  function ensureDirectoryExistence(filePath) {
+    const dirname = path.dirname(filePath)
+    if (fs.existsSync(dirname)) {
+      return true
+    }
+    ensureDirectoryExistence(dirname)
+    fs.mkdirSync(dirname)
+  }
+}
+
+function forAllCombinations(arr, f) {
+  const arrLength = arr.length
+  const combinationsCount = 2 ** arrLength
+
+  for (let i = 0; i < combinationsCount; i++) {
+    const combination = []
+
+    for (let j = 0; j < arrLength; j++) {
+      if (i & (1 << j)) combination.push(arr[j])
+    }
+
+    f(combination)
   }
 }
 
