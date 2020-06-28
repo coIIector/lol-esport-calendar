@@ -455,7 +455,7 @@ function generateCalendar() {
   console.log(LEAGUE_TEAMS)
 
   writeFileAsync(
-    "calendar/data.json",
+    "docs/calendar/data.json",
     JSON.stringify(
       {
         teams: LEAGUE_TEAMS,
@@ -570,12 +570,12 @@ X-PUBLISHED-TTL:P1W`
 
         calendarString += "\nEND:VCALENDAR"
 
-        writeFileAsync("calendar/" + fileName + ".ics", calendarString)
+        writeFileAsync("docs/calendar/" + fileName + ".ics", calendarString)
       }
     }
   }
 
-  writeFileAsync("calendar/allEvents.json", JSON.stringify(allEvents, null, 2))
+  writeFileAsync("docs/calendar/allEvents.json", JSON.stringify(allEvents, null, 2))
 
   function formatDate(date) {
     return (

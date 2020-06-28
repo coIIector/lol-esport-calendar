@@ -1,53 +1,5 @@
 [
   {
-    "startTime": "2019-09-01T09:00:00Z",
-    "state": "completed",
-    "type": "match",
-    "blockName": "Semifinals",
-    "league": {
-      "name": "LPL",
-      "slug": "lpl"
-    },
-    "match": {
-      "id": "102181141800995719",
-      "flags": [
-        "hasVod"
-      ],
-      "teams": [
-        {
-          "name": "Top Esports",
-          "code": "TES",
-          "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "result": {
-            "outcome": "loss",
-            "gameWins": 1
-          },
-          "record": {
-            "wins": 1,
-            "losses": 1
-          }
-        },
-        {
-          "name": "Royal Never Give Up",
-          "code": "RNG",
-          "image": "http://static.lolesports.com/teams/1592591992059_RoyalNeverGiveUpRNG-01-FullonDark.png",
-          "result": {
-            "outcome": "win",
-            "gameWins": 3
-          },
-          "record": {
-            "wins": 2,
-            "losses": 1
-          }
-        }
-      ],
-      "strategy": {
-        "type": "bestOf",
-        "count": 5
-      }
-    }
-  },
-  {
     "startTime": "2019-09-03T08:00:00Z",
     "state": "completed",
     "type": "match",
@@ -41678,7 +41630,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -41690,7 +41642,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -41725,7 +41677,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -41787,7 +41739,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 5
+            "losses": 6
           }
         }
       ],
@@ -41869,7 +41821,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -41882,7 +41834,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -42027,7 +41979,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -42074,8 +42026,8 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 2,
-            "losses": 1
+            "wins": 3,
+            "losses": 2
           }
         }
       ],
@@ -42109,7 +42061,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 0
           }
         },
@@ -42123,7 +42075,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -42205,7 +42157,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -42252,7 +42204,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -42265,7 +42217,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 5
+            "losses": 6
           }
         }
       ],
@@ -42297,7 +42249,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -42310,7 +42262,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -42629,8 +42581,8 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 2,
-            "losses": 1
+            "wins": 3,
+            "losses": 2
           }
         },
         {
@@ -42677,7 +42629,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -42690,7 +42642,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         }
@@ -42725,7 +42677,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -42739,7 +42691,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -42774,7 +42726,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -42786,7 +42738,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -42822,7 +42774,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -42835,7 +42787,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -42869,7 +42821,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -42883,7 +42835,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -43158,7 +43110,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -43171,7 +43123,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -43298,7 +43250,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -43346,7 +43298,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         },
         {
@@ -43359,7 +43311,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -43394,7 +43346,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -43406,7 +43358,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -43442,7 +43394,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -43454,7 +43406,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         }
@@ -43490,7 +43442,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -43502,7 +43454,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         }
@@ -43537,7 +43489,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -43550,7 +43502,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -43586,7 +43538,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -43598,7 +43550,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -43633,7 +43585,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         },
@@ -43646,7 +43598,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -43681,7 +43633,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         },
@@ -43730,7 +43682,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -43743,7 +43695,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -43775,7 +43727,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -43788,7 +43740,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -43821,7 +43773,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 0
           }
         },
@@ -43870,7 +43822,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -43882,7 +43834,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         }
@@ -43918,7 +43870,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         },
         {
@@ -43931,7 +43883,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -43965,7 +43917,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -43978,7 +43930,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -44013,7 +43965,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -44026,7 +43978,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         }
@@ -44062,7 +44014,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -44075,7 +44027,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -44123,7 +44075,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -44158,7 +44110,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -44170,7 +44122,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         }
@@ -44205,7 +44157,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -44219,7 +44171,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -44253,7 +44205,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         },
@@ -44266,7 +44218,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -44300,7 +44252,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -44358,7 +44310,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -44405,7 +44357,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 5
+            "losses": 6
           }
         }
       ],
@@ -44437,7 +44389,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 0
           }
         },
@@ -44532,7 +44484,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -44544,7 +44496,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -44626,7 +44578,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -44638,7 +44590,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -44674,7 +44626,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -44781,7 +44733,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -45101,7 +45053,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         },
@@ -45161,7 +45113,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -45195,7 +45147,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         },
@@ -45241,7 +45193,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -45254,8 +45206,8 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 2,
-            "losses": 1
+            "wins": 3,
+            "losses": 2
           }
         }
       ],
@@ -45290,7 +45242,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -45302,7 +45254,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         }
@@ -45337,7 +45289,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -45351,7 +45303,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -45386,7 +45338,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         },
         {
@@ -45398,7 +45350,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -45434,7 +45386,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -45446,7 +45398,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -45482,7 +45434,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -45494,7 +45446,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         }
@@ -45769,7 +45721,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -45783,7 +45735,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -45817,7 +45769,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         },
@@ -45830,7 +45782,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         }
@@ -45925,7 +45877,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 5
+            "losses": 6
           }
         }
       ],
@@ -46005,7 +45957,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 0
           }
         },
@@ -46054,7 +46006,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -46067,7 +46019,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -46102,7 +46054,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         },
         {
@@ -46114,7 +46066,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -46149,7 +46101,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         },
@@ -46162,7 +46114,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         }
@@ -46197,7 +46149,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -46211,7 +46163,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -46246,7 +46198,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -46258,7 +46210,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -46293,7 +46245,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -46307,7 +46259,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -46341,7 +46293,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         },
@@ -46403,7 +46355,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -46438,7 +46390,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -46450,7 +46402,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -46486,7 +46438,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -46498,7 +46450,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -46531,7 +46483,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -46545,7 +46497,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -46580,7 +46532,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -46592,7 +46544,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -46626,7 +46578,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -46638,7 +46590,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -46674,7 +46626,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -46686,7 +46638,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -46735,7 +46687,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -46770,7 +46722,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -46818,7 +46770,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -46830,7 +46782,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         }
@@ -46923,7 +46875,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -46969,7 +46921,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 5
+            "losses": 6
           }
         }
       ],
@@ -47014,7 +46966,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -47063,7 +47015,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -47144,7 +47096,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -47189,7 +47141,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 0
           }
         },
@@ -47327,7 +47279,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         },
@@ -47340,7 +47292,7 @@
             "gameWins": 2
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -47369,11 +47321,11 @@
           "code": "IG",
           "image": "http://static.lolesports.com/teams/1592591780360_InvictusGamingIG-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -47382,12 +47334,12 @@
           "code": "FPX",
           "image": "http://static.lolesports.com/teams/1592591743320_FunPlusPhoenixFPX-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "loss",
+            "gameWins": 1
           },
           "record": {
-            "wins": 2,
-            "losses": 1
+            "wins": 3,
+            "losses": 2
           }
         }
       ],
@@ -47685,7 +47637,7 @@
   },
   {
     "startTime": "2020-06-26T09:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 4",
     "league": {
@@ -47701,11 +47653,11 @@
           "code": "WE",
           "image": "http://static.lolesports.com/teams/1592592183312_WorldEliteWE-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -47714,12 +47666,12 @@
           "code": "RW",
           "image": "http://static.lolesports.com/teams/1592591963779_RogueWarriorsRW-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 0,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -47777,7 +47729,7 @@
   },
   {
     "startTime": "2020-06-26T11:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 4",
     "league": {
@@ -47793,12 +47745,12 @@
           "code": "EDG",
           "image": "http://static.lolesports.com/teams/1592591688166_EdwardGamingEDG-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "loss",
+            "gameWins": 1
           },
           "record": {
             "wins": 2,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -47806,11 +47758,11 @@
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 2
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 0
           }
         }
@@ -47846,7 +47798,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -47859,7 +47811,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -47893,7 +47845,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -47906,7 +47858,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -47941,7 +47893,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -47955,7 +47907,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -47989,7 +47941,7 @@
             "gameWins": 1
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         },
@@ -48002,7 +47954,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -48038,7 +47990,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -48051,7 +48003,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -48338,7 +48290,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -48373,7 +48325,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -48399,7 +48351,7 @@
   },
   {
     "startTime": "2020-06-27T08:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 2",
     "league": {
@@ -48415,12 +48367,12 @@
           "code": "SP",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/apk-prince-38ucpltr.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -48428,11 +48380,11 @@
           "code": "GEN",
           "image": "http://static.lolesports.com/teams/1592589327622_Gen.GGEN-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 2
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -48445,7 +48397,7 @@
   },
   {
     "startTime": "2020-06-27T09:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 4",
     "league": {
@@ -48461,11 +48413,11 @@
           "code": "SN",
           "image": "http://static.lolesports.com/teams/1592592023323_SuningSN-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 2
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -48474,12 +48426,12 @@
           "code": "DMO",
           "image": "http://static.lolesports.com/teams/1592591660968_DominusEsportsDMO-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "loss",
+            "gameWins": 1
           },
           "record": {
             "wins": 0,
-            "losses": 5
+            "losses": 6
           }
         }
       ],
@@ -48491,7 +48443,7 @@
   },
   {
     "startTime": "2020-06-27T11:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 2",
     "league": {
@@ -48507,12 +48459,12 @@
           "code": "KT",
           "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/kt-rolster-dv9kvyjx.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -48520,11 +48472,11 @@
           "code": "DWG",
           "image": "http://static.lolesports.com/teams/1592589259480_DamwonGamingDWG-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 2
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -48537,7 +48489,7 @@
   },
   {
     "startTime": "2020-06-27T11:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 4",
     "league": {
@@ -48553,12 +48505,12 @@
           "code": "FPX",
           "image": "http://static.lolesports.com/teams/1592591743320_FunPlusPhoenixFPX-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 2
           },
           "record": {
-            "wins": 2,
-            "losses": 1
+            "wins": 3,
+            "losses": 2
           }
         },
         {
@@ -48566,12 +48518,12 @@
           "code": "ES",
           "image": "http://static.lolesports.com/teams/1592591718103_eStarES-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 2,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -48583,7 +48535,7 @@
   },
   {
     "startTime": "2020-06-27T15:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 3",
     "league": {
@@ -48592,19 +48544,21 @@
     },
     "match": {
       "id": "104169295283008492",
-      "flags": [],
+      "flags": [
+        "hasVod"
+      ],
       "teams": [
         {
           "name": "SK Gaming",
           "code": "SK",
           "image": "http://static.lolesports.com/teams/1592591483154_SKGamingSK-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -48612,11 +48566,11 @@
           "code": "VIT",
           "image": "http://static.lolesports.com/teams/1592591570387_VitalityVIT-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         }
@@ -48629,7 +48583,7 @@
   },
   {
     "startTime": "2020-06-27T16:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 3",
     "league": {
@@ -48638,19 +48592,21 @@
     },
     "match": {
       "id": "104169295282942924",
-      "flags": [],
+      "flags": [
+        "hasVod"
+      ],
       "teams": [
         {
           "name": "Excel Esports",
           "code": "XL",
           "image": "http://static.lolesports.com/teams/1592591270646_ExcelXL-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -48658,11 +48614,11 @@
           "code": "MSF",
           "image": "http://static.lolesports.com/teams/1592591419157_MisfitsMSF-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -48675,7 +48631,7 @@
   },
   {
     "startTime": "2020-06-27T17:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 3",
     "league": {
@@ -48684,18 +48640,20 @@
     },
     "match": {
       "id": "104169295282942930",
-      "flags": [],
+      "flags": [
+        "hasVod"
+      ],
       "teams": [
         {
           "name": "Origen",
           "code": "OG",
           "image": "http://static.lolesports.com/teams/1592591448321_OrigenOG-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -48704,12 +48662,12 @@
           "code": "S04",
           "image": "http://static.lolesports.com/teams/1592591540115_Schalke04S04-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -48721,7 +48679,7 @@
   },
   {
     "startTime": "2020-06-27T18:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 3",
     "league": {
@@ -48730,18 +48688,20 @@
     },
     "match": {
       "id": "104169295283008506",
-      "flags": [],
+      "flags": [
+        "hasVod"
+      ],
       "teams": [
         {
           "name": "MAD Lions",
           "code": "MAD",
           "image": "http://static.lolesports.com/teams/1592591395339_MadLionsMAD-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         },
@@ -48750,12 +48710,12 @@
           "code": "RGE",
           "image": "http://static.lolesports.com/teams/1592591512937_RogueRGE-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -48767,7 +48727,7 @@
   },
   {
     "startTime": "2020-06-27T19:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 3",
     "league": {
@@ -48776,18 +48736,20 @@
     },
     "match": {
       "id": "104169295283008524",
-      "flags": [],
+      "flags": [
+        "hasVod"
+      ],
       "teams": [
         {
           "name": "G2 Esports",
           "code": "G2",
           "image": "http://static.lolesports.com/teams/1592591333874_G2G2-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -48796,12 +48758,12 @@
           "code": "FNC",
           "image": "http://static.lolesports.com/teams/1592591295307_FnaticFNC-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -48813,7 +48775,7 @@
   },
   {
     "startTime": "2020-06-27T20:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 3",
     "league": {
@@ -48822,18 +48784,20 @@
     },
     "match": {
       "id": "104174992718881869",
-      "flags": [],
+      "flags": [
+        "hasVod"
+      ],
       "teams": [
         {
           "name": "Counter Logic Gaming",
           "code": "CLG",
           "image": "http://static.lolesports.com/teams/1592590248482_CounterLogicGamingCLG-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -48842,12 +48806,12 @@
           "code": "100",
           "image": "http://static.lolesports.com/teams/1592590000927_100Thieves100-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -48859,7 +48823,7 @@
   },
   {
     "startTime": "2020-06-27T21:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 3",
     "league": {
@@ -48868,18 +48832,20 @@
     },
     "match": {
       "id": "104174992718816257",
-      "flags": [],
+      "flags": [
+        "hasVod"
+      ],
       "teams": [
         {
           "name": "TSM",
           "code": "TSM",
           "image": "http://static.lolesports.com/teams/1592590917094_TSMTSM-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         },
@@ -48888,12 +48854,12 @@
           "code": "EG",
           "image": "http://static.lolesports.com/teams/1592590374862_EvilGeniusesEG-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -48905,7 +48871,7 @@
   },
   {
     "startTime": "2020-06-27T22:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 3",
     "league": {
@@ -48914,19 +48880,21 @@
     },
     "match": {
       "id": "104174992718881855",
-      "flags": [],
+      "flags": [
+        "hasVod"
+      ],
       "teams": [
         {
           "name": "Dignitas",
           "code": "DIG",
           "image": "http://static.lolesports.com/teams/1592590315939_DignitasDIG-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -48934,11 +48902,11 @@
           "code": "TL",
           "image": "http://static.lolesports.com/teams/1592590875575_TeamLiquidTL-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -48951,7 +48919,7 @@
   },
   {
     "startTime": "2020-06-27T23:00:00Z",
-    "state": "unstarted",
+    "state": "completed",
     "type": "match",
     "blockName": "Week 3",
     "league": {
@@ -48960,18 +48928,20 @@
     },
     "match": {
       "id": "104174992718881849",
-      "flags": [],
+      "flags": [
+        "hasVod"
+      ],
       "teams": [
         {
           "name": "Immortals",
           "code": "IMT",
           "image": "http://static.lolesports.com/teams/1592590816147_ImmortalsIMT-01-FullonDark.png",
           "result": {
-            "outcome": null,
-            "gameWins": 0
+            "outcome": "win",
+            "gameWins": 1
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         },
@@ -48980,12 +48950,12 @@
           "code": "GG",
           "image": "http://static.lolesports.com/teams/1592590586919_GoldenGuardiansGGS-01-FullonDark.png",
           "result": {
-            "outcome": null,
+            "outcome": "loss",
             "gameWins": 0
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -49156,7 +49126,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -49202,7 +49172,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -49214,7 +49184,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         }
@@ -49260,7 +49230,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         }
@@ -49294,7 +49264,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -49340,7 +49310,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -49353,7 +49323,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -49386,7 +49356,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -49399,7 +49369,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 5
+            "losses": 6
           }
         }
       ],
@@ -49444,8 +49414,8 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
-            "losses": 1
+            "wins": 3,
+            "losses": 2
           }
         }
       ],
@@ -49523,7 +49493,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -49582,7 +49552,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -49615,7 +49585,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -49629,7 +49599,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 5
+            "losses": 6
           }
         }
       ],
@@ -49674,7 +49644,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -49707,7 +49677,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -49800,7 +49770,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -49891,7 +49861,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -50168,7 +50138,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -50181,7 +50151,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -50213,7 +50183,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 0
           }
         },
@@ -50272,7 +50242,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -50319,7 +50289,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -50352,7 +50322,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -50364,7 +50334,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         }
@@ -50398,7 +50368,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         },
         {
@@ -50410,7 +50380,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         }
@@ -50444,7 +50414,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -50457,7 +50427,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -50490,7 +50460,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -50502,7 +50472,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -50535,7 +50505,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -50548,7 +50518,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -50812,7 +50782,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -50825,7 +50795,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -50857,7 +50827,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -50903,7 +50873,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         },
@@ -50950,7 +50920,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -50963,7 +50933,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -51054,7 +51024,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -51088,7 +51058,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -51101,7 +51071,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -51133,7 +51103,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -51146,7 +51116,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -51180,7 +51150,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -51193,7 +51163,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -51226,7 +51196,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -51238,7 +51208,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -51271,7 +51241,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -51284,7 +51254,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         }
@@ -51318,7 +51288,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -51330,7 +51300,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         }
@@ -51364,7 +51334,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -51377,7 +51347,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -51410,7 +51380,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -51455,7 +51425,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -51468,7 +51438,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         }
@@ -51515,7 +51485,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -51561,7 +51531,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -51607,7 +51577,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -51652,8 +51622,8 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
-            "losses": 1
+            "wins": 3,
+            "losses": 2
           }
         }
       ],
@@ -51699,7 +51669,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -51744,7 +51714,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -51777,7 +51747,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         },
@@ -51790,7 +51760,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -51823,7 +51793,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         },
@@ -51837,7 +51807,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -51883,7 +51853,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -51975,7 +51945,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -52020,7 +51990,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -52296,7 +52266,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -52330,7 +52300,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -52605,7 +52575,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         },
@@ -52619,7 +52589,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -52665,7 +52635,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -52710,7 +52680,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -52757,7 +52727,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -52802,7 +52772,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         }
@@ -52836,7 +52806,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -52849,7 +52819,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -52881,7 +52851,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -52894,7 +52864,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -52928,7 +52898,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -53032,7 +53002,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -53065,7 +53035,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         },
@@ -53078,7 +53048,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         }
@@ -53112,7 +53082,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -53158,7 +53128,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -53170,7 +53140,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -53203,7 +53173,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -53217,7 +53187,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -53262,7 +53232,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -53308,7 +53278,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -53342,7 +53312,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -53388,7 +53358,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -53722,7 +53692,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -53756,7 +53726,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -53769,7 +53739,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -53802,7 +53772,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -53815,7 +53785,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -53847,7 +53817,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -53861,7 +53831,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -53893,7 +53863,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -53906,7 +53876,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -53939,7 +53909,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -53952,7 +53922,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         }
@@ -54215,7 +54185,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         },
@@ -54229,7 +54199,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -54261,7 +54231,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -54275,7 +54245,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -54308,7 +54278,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -54366,7 +54336,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -54399,7 +54369,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -54413,7 +54383,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -54446,7 +54416,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -54459,7 +54429,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -54491,7 +54461,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         },
@@ -54505,7 +54475,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -54537,7 +54507,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -54551,7 +54521,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -54583,7 +54553,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -54596,7 +54566,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -54642,7 +54612,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         }
@@ -54676,7 +54646,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -54722,7 +54692,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -54734,7 +54704,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         }
@@ -54767,7 +54737,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -54781,7 +54751,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -54814,7 +54784,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -54952,7 +54922,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -54964,7 +54934,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -54998,7 +54968,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -55011,7 +54981,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -55043,7 +55013,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         },
@@ -55056,7 +55026,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -55103,7 +55073,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -55148,7 +55118,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -55424,7 +55394,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -55471,7 +55441,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -55504,7 +55474,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -55517,7 +55487,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -55549,7 +55519,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -55562,7 +55532,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -55595,7 +55565,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -55609,7 +55579,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -55641,7 +55611,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -55655,7 +55625,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -55688,7 +55658,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -55700,7 +55670,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         }
@@ -55964,7 +55934,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -55976,7 +55946,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         }
@@ -56009,7 +55979,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -56114,7 +56084,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -56147,7 +56117,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -56161,7 +56131,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -56193,7 +56163,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -56207,7 +56177,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -56239,7 +56209,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -56253,7 +56223,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -56285,7 +56255,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         },
@@ -56299,7 +56269,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -56332,7 +56302,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -56344,7 +56314,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -56377,7 +56347,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         },
@@ -56391,7 +56361,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -56437,7 +56407,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -56469,7 +56439,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         },
@@ -56516,7 +56486,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -56528,7 +56498,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -56562,7 +56532,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -56608,7 +56578,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -56666,7 +56636,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -56700,7 +56670,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -56713,7 +56683,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -56745,7 +56715,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -56758,7 +56728,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         }
@@ -56792,7 +56762,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -56805,7 +56775,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -56896,7 +56866,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -57160,7 +57130,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -57251,7 +57221,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -57265,7 +57235,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -57298,7 +57268,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         },
         {
@@ -57311,7 +57281,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -57343,7 +57313,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         },
@@ -57356,7 +57326,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -57389,7 +57359,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -57402,7 +57372,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -57436,7 +57406,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -57449,7 +57419,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -57711,7 +57681,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -57725,7 +57695,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -57758,7 +57728,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -57770,7 +57740,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         }
@@ -57804,7 +57774,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -57816,7 +57786,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -57896,7 +57866,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -57909,7 +57879,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -57941,7 +57911,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -57955,7 +57925,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -57987,7 +57957,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -58000,7 +57970,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         }
@@ -58033,7 +58003,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -58047,7 +58017,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -58079,7 +58049,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -58093,7 +58063,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -58126,7 +58096,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -58185,7 +58155,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -58217,7 +58187,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -58230,7 +58200,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -58264,7 +58234,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -58276,7 +58246,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         }
@@ -58309,7 +58279,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         },
@@ -58401,7 +58371,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         },
@@ -58447,7 +58417,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         },
@@ -58461,7 +58431,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -58507,7 +58477,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -58540,7 +58510,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -58552,7 +58522,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -58585,7 +58555,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         },
@@ -58598,7 +58568,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -58632,7 +58602,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -58724,7 +58694,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -59045,7 +59015,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         },
@@ -59059,7 +59029,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -59091,7 +59061,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -59105,7 +59075,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -59137,7 +59107,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -59151,7 +59121,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -59184,7 +59154,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -59197,7 +59167,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -59229,7 +59199,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         },
@@ -59243,7 +59213,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -59275,7 +59245,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -59288,7 +59258,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -59552,7 +59522,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         },
         {
@@ -59597,7 +59567,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         },
@@ -59611,7 +59581,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -59689,7 +59659,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -59703,7 +59673,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -59736,7 +59706,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -59748,7 +59718,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -59781,7 +59751,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -59794,7 +59764,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         }
@@ -59827,7 +59797,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -59841,7 +59811,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -59873,7 +59843,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -59887,7 +59857,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -59920,7 +59890,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -59933,7 +59903,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -59965,7 +59935,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         },
@@ -59978,7 +59948,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -60012,7 +59982,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -60025,7 +59995,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         }
       ],
@@ -60057,7 +60027,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -60104,7 +60074,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -60117,7 +60087,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -60149,7 +60119,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4
           }
         },
@@ -60162,7 +60132,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -60195,7 +60165,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1
           }
         },
@@ -60209,7 +60179,7 @@
           },
           "record": {
             "wins": 0,
-            "losses": 6
+            "losses": 7
           }
         }
       ],
@@ -60242,7 +60212,7 @@
           },
           "record": {
             "wins": 5,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -60254,7 +60224,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         }
@@ -60288,7 +60258,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 3
+            "losses": 4
           }
         },
         {
@@ -60301,7 +60271,7 @@
           },
           "record": {
             "wins": 4,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -60333,7 +60303,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3
           }
         },
@@ -60347,7 +60317,7 @@
           },
           "record": {
             "wins": 2,
-            "losses": 4
+            "losses": 5
           }
         }
       ],
@@ -60392,7 +60362,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         }
@@ -60426,7 +60396,7 @@
           },
           "record": {
             "wins": 3,
-            "losses": 1
+            "losses": 2
           }
         },
         {
@@ -60439,7 +60409,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 3
+            "losses": 4
           }
         }
       ],
@@ -60471,7 +60441,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2
           }
         },
@@ -60484,7 +60454,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 2
           }
         }
@@ -60530,7 +60500,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 0,
+            "wins": 1,
             "losses": 4
           }
         }
@@ -60576,7 +60546,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -60656,7 +60626,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -60669,7 +60639,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -60760,7 +60730,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -60852,7 +60822,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -60899,7 +60869,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -60944,7 +60914,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -60991,7 +60961,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -61083,7 +61053,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         }
       ],
@@ -61128,7 +61098,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }
@@ -61162,7 +61132,7 @@
           },
           "record": {
             "wins": 1,
-            "losses": 2
+            "losses": 3
           }
         },
         {
@@ -61174,7 +61144,7 @@
             "gameWins": 0
           },
           "record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 1
           }
         }

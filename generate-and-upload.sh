@@ -1,3 +1,3 @@
 node generator.js
-git add calendar/*.ics
+git add docs/calendar/*.ics
 git push origin master:master
