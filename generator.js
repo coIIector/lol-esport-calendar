@@ -320,6 +320,14 @@ const FOLLOW_LEAGUE_CALENDAR_COMBINATIONS = {
   "European Masters": [EVENT_INTERNAL_SLUGS.EU],
 }
 
+const FOLLOW_LEAGUE_CALENDAR_COMBINATIONS_LIST = []
+for (const [key, value] of Object.entries(FOLLOW_LEAGUE_CALENDAR_COMBINATIONS)) {
+  FOLLOW_LEAGUE_CALENDAR_COMBINATIONS_LIST.push({
+    name: key,
+    events: value,
+  })
+}
+
 const EVENTS_TO_CRAWL = (() => {
   const eventSlugs = new Set()
 
@@ -451,7 +459,7 @@ function generateCalendar() {
     JSON.stringify(
       {
         teams: LEAGUE_TEAMS,
-        combinations: FOLLOW_LEAGUE_CALENDAR_COMBINATIONS,
+        combinations: FOLLOW_LEAGUE_CALENDAR_COMBINATIONS_LIST,
         eventNames: EVENTS_NAMES,
       },
       function(key, value) {

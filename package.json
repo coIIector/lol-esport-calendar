@@ -1,10 +1,9 @@
 {
   "name": "lol-schedule",
   "version": "1.0.0",
-  "dependencies": {
-    "request": "^2.88.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1",
+    "request": "^2.88.2"
   }
 }
