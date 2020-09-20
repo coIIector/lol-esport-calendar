@@ -64,8 +64,7 @@ const LEAGUES_JSON = {
         slug: "turkey-academy-league",
         name: "TAL",
         region: "TURKEY",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/turkey-academy-league-8l5m5u43.png",
+        image: "http://static.lolesports.com/leagues/1592516072459_TAL-01-FullonDark.png",
         priority: 1000,
       },
       {
@@ -73,8 +72,16 @@ const LEAGUES_JSON = {
         slug: "lla",
         name: "LLA",
         region: "LATIN AMERICA",
-        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lla-3npx8e46.png",
+        image: "http://static.lolesports.com/leagues/1592516315279_LLA-01-FullonDark.png",
         priority: 206,
+      },
+      {
+        id: "104366947889790212",
+        slug: "pcs",
+        name: "PCS",
+        region: "HONG KONG, MACAU, TAIWAN",
+        image: "http://static.lolesports.com/leagues/1592515942679_PCS-01-FullonDark.png",
+        priority: 1000,
       },
       {
         id: "102299952872678379",
@@ -106,17 +113,15 @@ const LEAGUES_JSON = {
         slug: "worlds",
         name: "Worlds",
         region: "INTERNATIONAL",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/worlds-3om032jn.png",
-        priority: 209,
+        image: "http://static.lolesports.com/leagues/1592594612171_WorldsDarkBG.png",
+        priority: 0,
       },
       {
         id: "98767991295297326",
         slug: "all-star",
         name: "All-Star Event",
         region: "INTERNATIONAL",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/all-star-dtf4kf16.png",
+        image: "http://static.lolesports.com/leagues/1592594737227_ASEDarkBG.png",
         priority: 211,
       },
       {
@@ -124,7 +129,7 @@ const LEAGUES_JSON = {
         slug: "lcs",
         name: "LCS",
         region: "NORTH AMERICA",
-        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lcs-79qe3e0y.png",
+        image: "http://static.lolesports.com/leagues/1592516141735_LCS-01-FullonDark.png",
         priority: 1,
       },
       {
@@ -132,8 +137,7 @@ const LEAGUES_JSON = {
         slug: "lec",
         name: "LEC",
         region: "EUROPE",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/eu-lcs-dgpu3cuv.png",
+        image: "http://static.lolesports.com/leagues/1592516184297_LEC-01-FullonDark.png",
         priority: 2,
       },
       {
@@ -141,7 +145,7 @@ const LEAGUES_JSON = {
         slug: "lck",
         name: "LCK",
         region: "KOREA",
-        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lck-7epeu9ot.png",
+        image: "http://static.lolesports.com/leagues/1592516205122_LCK-01-FullonDark.png",
         priority: 3,
       },
       {
@@ -149,8 +153,7 @@ const LEAGUES_JSON = {
         slug: "lpl",
         name: "LPL",
         region: "CHINA",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/lpl-china-6ygsd4c8.png",
+        image: "http://static.lolesports.com/leagues/1592516115322_LPL-01-FullonDark.png",
         priority: 201,
       },
       {
@@ -158,7 +161,7 @@ const LEAGUES_JSON = {
         slug: "msi",
         name: "MSI",
         region: "INTERNATIONAL",
-        image: "https://lolstatic-a.akamaihd.net/esports-assets/production/league/msi-iu1t0cjd.png",
+        image: "http://static.lolesports.com/leagues/1592594634248_MSIDarkBG.png",
         priority: 210,
       },
       {
@@ -175,8 +178,7 @@ const LEAGUES_JSON = {
         slug: "cblol-brazil",
         name: "CBLOL",
         region: "BRAZIL",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/cblol-brazil-46x5zjmg.png",
+        image: "http://static.lolesports.com/leagues/1592516282648_CBLOL-01-FullonDark.png",
         priority: 204,
       },
       {
@@ -202,8 +204,7 @@ const LEAGUES_JSON = {
         slug: "ljl-japan",
         name: "LJL",
         region: "JAPAN",
-        image:
-          "https://lolstatic-a.akamaihd.net/esports-assets/production/league/ljl-japan-j27k8oms.png",
+        image: "http://static.lolesports.com/leagues/1592516354053_LJL-01-FullonDark.png",
         priority: 208,
       },
       {
