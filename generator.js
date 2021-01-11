@@ -57,7 +57,7 @@ const LEAGUES_JSON = {
         name: "European Masters",
         region: "EUROPE",
         image: "http://static.lolesports.com/leagues/1585044513499_EM_BUG_2020%20(1).png",
-        priority: 213,
+        priority: 2,
       },
       {
         id: "101097443346691685",
@@ -114,7 +114,7 @@ const LEAGUES_JSON = {
         name: "Worlds",
         region: "INTERNATIONAL",
         image: "http://static.lolesports.com/leagues/1592594612171_WorldsDarkBG.png",
-        priority: 0,
+        priority: 209,
       },
       {
         id: "98767991295297326",
@@ -129,8 +129,8 @@ const LEAGUES_JSON = {
         slug: "lcs",
         name: "LCS",
         region: "NORTH AMERICA",
-        image: "http://static.lolesports.com/leagues/1592516141735_LCS-01-FullonDark.png",
-        priority: 1,
+        image: "http://static.lolesports.com/leagues/LCSNew-01-FullonDark.png",
+        priority: 3,
       },
       {
         id: "98767991302996019",
@@ -138,15 +138,15 @@ const LEAGUES_JSON = {
         name: "LEC",
         region: "EUROPE",
         image: "http://static.lolesports.com/leagues/1592516184297_LEC-01-FullonDark.png",
-        priority: 2,
+        priority: 1,
       },
       {
         id: "98767991310872058",
         slug: "lck",
         name: "LCK",
         region: "KOREA",
-        image: "http://static.lolesports.com/leagues/1592516205122_LCK-01-FullonDark.png",
-        priority: 3,
+        image: "http://static.lolesports.com/leagues/lck-color-on-black.png",
+        priority: 4,
       },
       {
         id: "98767991314006698",
@@ -178,7 +178,7 @@ const LEAGUES_JSON = {
         slug: "cblol-brazil",
         name: "CBLOL",
         region: "BRAZIL",
-        image: "http://static.lolesports.com/leagues/1592516282648_CBLOL-01-FullonDark.png",
+        image: "http://static.lolesports.com/leagues/cblol-logo-symbol-offwhite.png",
         priority: 204,
       },
       {
